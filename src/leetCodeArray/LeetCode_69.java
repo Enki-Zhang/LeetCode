@@ -22,10 +22,6 @@ public class LeetCode_69 {
         {
             System.out.println(targetArray[i]);
         }
-
-
-
-
     }
 
 
@@ -40,7 +36,6 @@ public class LeetCode_69 {
             int[] targetNums = delArray(nums, val, target);
             return targetNums;
 //            System.out.println();
-
         }
 
         public static int[] delArray(int[] nums, int x, int target) {
@@ -49,22 +44,16 @@ public class LeetCode_69 {
             int pointB = 1;
             int a;
             while (pointA < nums.length) {
-
                 while (nums[pointA] == x && pointA < nums.length - target) {
                     a = pointA;
                     pointB = a + 1;
                     for (int j = pointA; j < nums.length && pointB < nums.length; j++, a++, pointB++) {
                         nums[a] = nums[pointB];
                     }
-
                 }
                 pointA++;
             }
             return nums;
         }
-
-
-
-
     }
 }
