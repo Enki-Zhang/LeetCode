@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_283$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_283$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_977.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_844$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_844$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_844.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_844.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +40,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P3/P3-server/stu-p3lab-server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_844">
+  <component name="RunManager" selected="Application.LeetCode_209">
+    <configuration name="LeetCode_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_209" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_26" />
       <module name="code" />
@@ -70,32 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_34" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode_69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_69" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeetCode_844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_844" />
       <module name="code" />
@@ -109,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_977" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_209" />
+        <item itemvalue="Application.LeetCode_977" />
         <item itemvalue="Application.LeetCode_844" />
         <item itemvalue="Application.LeetCode_283" />
         <item itemvalue="Application.LeetCode_26" />
-        <item itemvalue="Application.LeetCode_69" />
-        <item itemvalue="Application.LeetCode_34" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +134,11 @@
       <workItem from="1662883550185" duration="10292000" />
       <workItem from="1662960427540" duration="15503000" />
       <workItem from="1663044671196" duration="14528000" />
-      <workItem from="1663128828751" duration="2457000" />
+      <workItem from="1663128828751" duration="4048000" />
+      <workItem from="1663140269338" duration="604000" />
+      <workItem from="1663217541546" duration="8967000" />
+      <workItem from="1663246310679" duration="608000" />
+      <workItem from="1663292989264" duration="6158000" />
     </task>
     <servers />
   </component>
@@ -163,14 +170,9 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="33" />
+          <url>file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
