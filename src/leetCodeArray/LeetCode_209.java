@@ -8,13 +8,12 @@ import java.util.Arrays;
  */
 public class LeetCode_209 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5};
+        int[] nums = {1, 2, 3, 4, 5};
         int target = 11;
         int i = Solution.minSubArrayLen(target, nums);
-        System.out.println(Arrays.toString(i));
-//        System.out.println(i);
+//        System.out.println(Arrays.toString(i));
+        System.out.println(i);
     }
-
 
 //    static class Solution {
 //        public static int minSubArrayLen(int target, int[] nums) {
@@ -77,7 +76,7 @@ public class LeetCode_209 {
 //        }
 //    }
 
-    //    记录每个满足条件的子串长度
+    //  新开一个数组记录每个满足条件的子串长度  返回除去0以外的最小数字
     static class Solution {
         public static int minSubArrayLen(int target, int[] nums) {
             int[] indexNums = new int[5];
@@ -91,7 +90,7 @@ public class LeetCode_209 {
                     sum += nums[pointB];
                     if (sum < target) {
                         pointB++;
-                        indexNums[i]=0;
+                        indexNums[i] = 0;
                     } else if (sum >= target) {
                         indexNumsLength = pointB - i + 1;
                         indexNums[i] = indexNumsLength;
@@ -100,14 +99,12 @@ public class LeetCode_209 {
                     }
                 }
             }
-
             int minNotZero = indexNums[0];
             for (int i = 0; i < indexNums.length; i++) {
-                if (indexNums[i] != 0 && minNotZero > indexNums[i] ){
+                if (indexNums[i] != 0 && minNotZero > indexNums[i]) {
                     minNotZero = indexNums[i];
                 }
             }
-
             return minNotZero;
         }
     }
