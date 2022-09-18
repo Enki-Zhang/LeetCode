@@ -8,74 +8,17 @@ import java.util.Arrays;
  */
 public class LeetCode_209 {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4, 5};
+        int[] nums = {1, 1, 1, 1, 1, 1, 1, 1};
         int target = 11;
-        int i = Solution.minSubArrayLen(target, nums);
+//        int i = Solution.minSubArrayLen(target, nums);
+        int i = Solution_02.minSubArrayLen_2(target, nums);
+
 //        System.out.println(Arrays.toString(i));
         System.out.println(i);
     }
 
-//    static class Solution {
-//        public static int minSubArrayLen(int target, int[] nums) {
-//            int max = 0;
-//            int index = 0;
-//            int sum = 0;
-//            int[] targetNums=new int[100];
-//
-//            for (int i = 0; i < nums.length; i++) {
-//                if (nums[i] > max) {
-//                    max = nums[i];
-//                    index = i;
-//                }
-//            }
-//            sum = nums[index];
-//            int indexMax = index;
-//            int indexA = index;
-//            if (sum==target)
-//            {
-////                System.out.println(index);
-//                targetNums[0]=index;
-//                return targetNums.length;
-//            }
-//            while (indexA > 0) {
-//                indexA--;
-//                if (sum != target) {
-//                    sum += nums[indexA];
-//                }else {
-//                    break;
-//                }
-//            }
-//            int indexB = index;
-//            while (indexB < nums.length){
-//                indexB++;
-//                if (sum != target) {
-//                    sum += nums[indexA];
-//                }else {
-//                    break;
-//                }
-//            }
-//
-//            if (indexMax-indexA < indexB-indexMax){
-//                for (int i=indexA,j=0;i<=indexMax;i++,j++){
-//                    targetNums[j] = i;
-////                    System.out.println(i);
-//                }
-//                return targetNums.length;
-//            }else {
-//
-//                for (int i= indexMax,j=0;i<=indexB;i++,j++)
-//                {
-//                    targetNums[j] = i;
-////                    System.out.println(i);
-//
-//                }
-//                return targetNums.length;
-//            }
-//
-//
-//        }
-//    }
 
+    //解法1：
     //  新开一个数组记录每个满足条件的子串长度  返回除去0以外的最小数字
     static class Solution {
         public static int minSubArrayLen(int target, int[] nums) {
@@ -94,7 +37,6 @@ public class LeetCode_209 {
                     } else if (sum >= target) {
                         indexNumsLength = pointB - i + 1;
                         indexNums[i] = indexNumsLength;
-
                         break;
                     }
                 }
@@ -107,6 +49,33 @@ public class LeetCode_209 {
             }
             return minNotZero;
         }
+    }
+
+    //    解法2滑动窗口
+    static class Solution_02 {
+        public static int minSubArrayLen_2(int target, int[] nums) {
+            int sum = 0;
+            int min = nums.length;
+            int left = 0;
+            int length = 0;
+            boolean isHas = false;
+            for (int right = 0; right < nums.length; right++) {
+                sum += nums[right];
+                while (sum > target) {
+                    isHas = true;
+                    length = right - left + 1;
+                    min = Math.min(min, length);
+                    //滑动窗口 移动左边的指针减小窗口并去掉窗口外面的元素
+                    sum -= nums[right++];
+                }
+            }
+            if (isHas) {
+                return min;
+            }
+            return 0;
+
+        }
+
     }
 
 
