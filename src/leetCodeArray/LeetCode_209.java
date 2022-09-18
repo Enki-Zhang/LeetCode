@@ -8,8 +8,8 @@ import java.util.Arrays;
  */
 public class LeetCode_209 {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 1, 1, 1, 1, 1, 1};
-        int target = 11;
+        int[] nums = {2,3,1,2,4,3};
+        int target = 7;
 //        int i = Solution.minSubArrayLen(target, nums);
         int i = Solution_02.minSubArrayLen_2(target, nums);
 
@@ -61,12 +61,12 @@ public class LeetCode_209 {
             boolean isHas = false;
             for (int right = 0; right < nums.length; right++) {
                 sum += nums[right];
-                while (sum > target) {
+                while (sum >= target) {
                     isHas = true;
                     length = right - left + 1;
                     min = Math.min(min, length);
-                    //滑动窗口 移动左边的指针减小窗口并去掉窗口外面的元素
-                    sum -= nums[right++];
+                    //滑动窗口 移动左边的指针减小窗口并去掉窗口外面的元素 如何条件不符合继续扩大窗口
+                    sum -= nums[left++];
                 }
             }
             if (isHas) {
