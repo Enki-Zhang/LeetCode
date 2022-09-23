@@ -6,7 +6,7 @@ package leetCodeLink;
  */
 public class LeetCode_206 {
     public static void main(String[] args) throws Exception {
-        int[] nums = {1, 2, 3, 4, 5,45,12,354};
+        int[] nums = {1, 2, 3, 5, 6, 7};
         ListNode head = new ListNode(nums);
 //        ListNode list = Solution.reverseList(head);
         ListNode listNode = Solution_headInsert.reverseList(head);
@@ -47,25 +47,19 @@ public class LeetCode_206 {
          */
         public static ListNode reverseList(ListNode head) {
             ListNode _head = new ListNode(-1);//头结点为空
+            ListNode _h = _head;//返回时候作为标记
             _head.next = head;
             ListNode pre = _head;//前序指针
             ListNode cur = head;//遍历指针
-            ListNode target = cur;//标记结束
-            int size = 0;
-            while (cur != null) {
-                size++;
-                cur = cur.next;
-            }
-            cur = head;
             //遍历链表 取出末尾节点
-            while (cur != null && size > 0) {
+            while (cur != null) {
                 if (cur.next == null) {
                     //末尾节点
                     pre.next = null;//取出末尾
                     cur.next = _head.next;//头插
                     _head.next = cur;
+                    _head = _head.next;
                     pre = _head;
-                    size--;
 
                 } else {
                     //指针后移
@@ -73,8 +67,8 @@ public class LeetCode_206 {
                 }
                 cur = pre.next;
             }
-
-            return head;
+//            表头元素
+            return _h.next;
         }
 
     }

@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_209$Solution_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_209$Solution_02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_283$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_283$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_59$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_59$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_59.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_59.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_704$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_704$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_704.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_704.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_904$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeArray/LeetCode_904$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +155,7 @@
       <workItem from="1663635886590" duration="5514000" />
       <workItem from="1663721650953" duration="4408000" />
       <workItem from="1663809737877" duration="14140000" />
-      <workItem from="1663894960824" duration="9899000" />
+      <workItem from="1663894960824" duration="11157000" />
     </task>
     <servers />
   </component>
@@ -198,11 +185,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="18" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
