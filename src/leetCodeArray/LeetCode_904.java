@@ -19,8 +19,7 @@ public class LeetCode_904 {
     /*
     用两位数组记录两棵树 将第一个指针从第一个课树开始并将树的种类记录在两位数组中  第一个指针直到扫到第二课不同种类的树停止，
     第二个指针在第一个指针下面一个进行扫描并将树的种类记录在两位数组中 并在接下来的扫描中排除两位数组中的元素直到遇到不在两位数组中的树停止
-     此时得到从当前树采摘的最大长度，并记录在一个专门用来记录
-     每个元素满足题意的长度的数组中 返回该数组的最大值即可。
+    此时得到从当前树采摘的最大长度，并记录在一个专门用来记录，每个元素满足题意的长度的数组中 返回该数组的最大值即可。
      */
     static class Solution {
         public static int totalFruit(int[] fruits) {
@@ -53,9 +52,6 @@ public class LeetCode_904 {
                         }
                     }
                 }
-//                if (max < pointB - i) {
-//                    max = pointB - i;
-//                }
                 max = Math.max(max, (pointB - i));
             }
             return max;

@@ -4,6 +4,9 @@ package leetCodeArray;
  * @author Enki
  * @Version 1.0
  */
+/*
+二分查找
+ */
 public class LeetCode_704 {
     public static void main(String[] args) {
         int[] nums = {-1, 0, 3, 5, 9, 12};

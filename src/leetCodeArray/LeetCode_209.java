@@ -59,6 +59,7 @@ public class LeetCode_209 {
             int left = 0;
             int length = 0;
             boolean isHas = false;
+//            用右指针做边界判定，同时扩大窗口,条件不满足用左指针缩小窗口，同时完成指针后移
             for (int right = 0; right < nums.length; right++) {
                 sum += nums[right];
                 while (sum >= target) {

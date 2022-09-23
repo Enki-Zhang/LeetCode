@@ -21,6 +21,7 @@ public class LeetCode_283 {
             int len = 0;
             while (pointA < nums.length-len ) {
                 if (nums[pointA] == 0) {
+                    //将0冒泡到最后 并将数组长度-1
                     for (int i = pointA; i < nums.length - 1; i++) {
                         int temp = nums[i];
                         nums[i] = nums[i + 1];

@@ -11,15 +11,14 @@ public class LeetCode_59 {
         int n = 3;
         int[][] ints = Solution.generateMatrix(n);
         System.out.println(Arrays.deepToString(ints));
-
     }
 
     static class Solution {
         public static int[][] generateMatrix(int n) {
             int[][] targetNums = new int[n][n];
-            int k = n - 1;
+            int k = n - 1;//每次循环边界
             int num = 1;
-            int loop = 0;
+            int loop = 0;//每次循环层数减一
             while (loop < k) {
                 for (int i = loop, j = loop; j < k - loop; j++, num++) {
                     targetNums[i][j] = num;//末尾数为n[0][k-1]
