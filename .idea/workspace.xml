@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
+      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206$Solution_headInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206$Solution_headInsert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_707$LinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_707$MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_707$MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_707.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_707.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" afterDir="false" />
     </list>
@@ -30,16 +38,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/ListNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_69.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_69.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2EX30PTOZFUQZDtTKwb6zwcgo0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,13 +63,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P3/P3-server/stu-p3lab-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_206">
+  <component name="RunManager" selected="Application.LeetCode_24">
     <configuration name="LeetCode_206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_206" />
       <module name="code" />
@@ -70,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_209" />
+    <configuration name="LeetCode_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_24" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="PATTERN" value="leetCodeLink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_904" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_904" />
+    <configuration name="LeetCode_82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_82" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="PATTERN" value="leetCodeLink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeArray.LeetCode_977" />
+    <configuration name="LeetCode_83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_83" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="PATTERN" value="leetCodeLink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_24" />
         <item itemvalue="Application.LeetCode_206" />
+        <item itemvalue="Application.LeetCode_82" />
+        <item itemvalue="Application.LeetCode_83" />
         <item itemvalue="Application.LeetCode_59" />
-        <item itemvalue="Application.LeetCode_209" />
-        <item itemvalue="Application.LeetCode_904" />
-        <item itemvalue="Application.LeetCode_977" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +168,17 @@
       <workItem from="1663635886590" duration="5514000" />
       <workItem from="1663721650953" duration="4408000" />
       <workItem from="1663809737877" duration="14140000" />
-      <workItem from="1663894960824" duration="11157000" />
+      <workItem from="1663894960824" duration="22193000" />
+      <workItem from="1663981587138" duration="10092000" />
+      <workItem from="1664067554024" duration="594000" />
+      <workItem from="1664154292060" duration="10646000" />
+      <workItem from="1664241070084" duration="10556000" />
+      <workItem from="1664328360275" duration="2448000" />
+      <workItem from="1664414811072" duration="745000" />
+      <workItem from="1664427372144" duration="1188000" />
+      <workItem from="1664501452791" duration="939000" />
+      <workItem from="1664715691767" duration="1813000" />
+      <workItem from="1664761562628" duration="5382000" />
     </task>
     <servers />
   </component>
@@ -185,11 +208,16 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="18" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$LeetCode_206.ic" NAME="LeetCode_206 Coverage Results" MODIFIED="1663910135110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/code$LeetCode_206.ic" NAME="LeetCode_206 Coverage Results" MODIFIED="1664168441488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetCodeLink.*</FILTER>
     </SUITE>
   </component>
