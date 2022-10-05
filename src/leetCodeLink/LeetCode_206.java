@@ -117,15 +117,15 @@ public class LeetCode_206 {
         public static ListNode recursive_after(ListNode head) {
             //判断最小单元 出口
             if ( head.next == null) {
-                return head;
+                return head;//出栈
             }
             //返回末尾节点 这里不断压栈 直到末尾节点
-            ListNode node = recursive_after(head.next);
+            ListNode node = recursive_after(head.next); //入栈
 //            最小单元逻辑 出现环
             head.next.next = head;
 //            出现环
             head.next = null;
-            return node;
+            return node; //出栈
         }
 
         //        翻转列表 后序排序
