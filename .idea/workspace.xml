@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_24$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeLink/LeetCode_24$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetC_232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_347.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +35,27 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/ListNode.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_69.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_69.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_19.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/ListNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_142.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetC_232.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2EX30PTOZFUQZDtTKwb6zwcgo0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,13 +72,26 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_0207">
+  <component name="RunManager" selected="Application.LeetCode_347">
     <configuration name="LeetCode_0207" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_0207" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetCodeLink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.LeetCode_1047" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_206" />
+    <configuration name="LeetCode_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.LeetCode_239" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeLink.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_24" />
+    <configuration name="LeetCode_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackAndQueue.LeetCode_347" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeLink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode_82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_82" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeLink.*" />
+          <option name="PATTERN" value="StackAndQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_347" />
+        <item itemvalue="Application.LeetCode_239" />
+        <item itemvalue="Application.LeetCode_1047" />
         <item itemvalue="Application.LeetCode_0207" />
         <item itemvalue="Application.LeetCode_19" />
-        <item itemvalue="Application.LeetCode_24" />
-        <item itemvalue="Application.LeetCode_206" />
-        <item itemvalue="Application.LeetCode_82" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +183,13 @@
       <workItem from="1664715691767" duration="1813000" />
       <workItem from="1664761562628" duration="25799000" />
       <workItem from="1664951497652" duration="974000" />
+      <workItem from="1665017434149" duration="4317000" />
+      <workItem from="1665040515780" duration="239000" />
+      <workItem from="1665040779149" duration="12000" />
+      <workItem from="1665057167953" duration="6418000" />
+      <workItem from="1665104275902" duration="18457000" />
+      <workItem from="1665191961256" duration="3970000" />
+      <workItem from="1665204195655" duration="8544000" />
     </task>
     <servers />
   </component>
@@ -205,8 +221,16 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code$LeetCode_347.ic" NAME="LeetCode_347 Coverage Results" MODIFIED="1665207731872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StackAndQueue.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/code$LeetCode_206.ic" NAME="LeetCode_206 Coverage Results" MODIFIED="1664168441488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetCodeLink.*</FILTER>
     </SUITE>

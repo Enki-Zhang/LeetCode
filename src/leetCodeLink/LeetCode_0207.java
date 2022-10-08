@@ -6,13 +6,13 @@ package leetCodeLink;
  */
 public class LeetCode_0207 {
     public static void main(String[] args) throws Exception {
-        int[] numsA = {0, 9, 1, 2, 4};
-        int[] numsB = {3, 2, 4};
-
-        ListNode headA = new ListNode(numsA);
-        ListNode headB = new ListNode(numsB);
-        ListNode intersectionNode = Solution.getIntersectionNode(headA, headB);
-        System.out.println(intersectionNode);
+//        int[] numsA = {0, 9, 1, 2, 4};
+//        int[] numsB = {3, 2, 4};
+//
+//        ListNode headA = new ListNode(numsA);
+//        ListNode headB = new ListNode(numsB);
+//        ListNode intersectionNode = Solution.getIntersectionNode(headA, headB);
+//        System.out.println(intersectionNode);
     }
 
     public static class ListNode {
