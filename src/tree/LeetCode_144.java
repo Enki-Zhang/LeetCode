@@ -14,7 +14,6 @@ public class LeetCode_144 {
 
     //    前序遍历
     static List<Integer> list = new LinkedList<>();
-
     static class Solution {
         public static List<Integer> preorderTraversal(TreeNode root) {
             if (root != null) {
