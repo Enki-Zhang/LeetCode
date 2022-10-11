@@ -8,7 +8,7 @@ import java.util.Queue;
  * @author Enki
  * @Version 1.0
  */
-public class LeetCode_116 {
+public class LeetCode_116_ {
     public static void main(String[] args) {
     }
 
