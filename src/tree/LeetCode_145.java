@@ -43,8 +43,6 @@ public class LeetCode_145 {
                 }
             }
             Collections.reverse(list);
-
-
             return list;
         }
 

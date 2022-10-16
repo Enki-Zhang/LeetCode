@@ -25,7 +25,7 @@ public class LeetCode_94 {
             return list;
         }
 
-        //    对象 非递归遍历
+        //    对象 非递归中序遍历
         public List<Integer> noRecursiveTraversal(TreeNode root) {
             List<Integer> list = new LinkedList<>();
             Stack<TreeNode> stack = new Stack<>();

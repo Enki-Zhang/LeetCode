@@ -14,6 +14,7 @@ public class LeetCode_144 {
 
     //    前序遍历
     static List<Integer> list = new LinkedList<>();
+
     static class Solution {
         public static List<Integer> preorderTraversal(TreeNode root) {
             if (root != null) {
@@ -23,13 +24,14 @@ public class LeetCode_144 {
             }
             return list;
         }
-//前序遍历非递归
+
+        //前序遍历非递归
         public List<Integer> noPreorderTraversal(TreeNode root) {
             List<Integer> list = new LinkedList<>();
             Stack<TreeNode> stack = new Stack<>();
             TreeNode treeNode = root;
             while (treeNode != null || !stack.isEmpty()) {
-                if (treeNode != null) {
+                if (treeNode != null) {//到最左边节点
                     list.add(treeNode.val);
                     stack.push(treeNode);
                     treeNode = treeNode.left;

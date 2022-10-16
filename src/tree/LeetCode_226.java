@@ -2,6 +2,8 @@ package tree;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author Enki
@@ -16,6 +18,7 @@ public class LeetCode_226 {
 //    递归 前序遍历
     class Solution {
         TreeNode node = new TreeNode();
+
         public TreeNode invertTree(TreeNode root) {
             if (root != null) {
                 node = root.left;
@@ -26,5 +29,31 @@ public class LeetCode_226 {
             }
             return root;
         }
+
+        //        非递归遍历
+        public TreeNode noinvertTree(TreeNode root) {
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode node = root;
+            while (!stack.isEmpty() || node != null) {
+                if (node != null) {
+                    stack.add(node);
+                    node = node.left;
+                }
+                else {
+                    TreeNode pop = stack.pop();
+//                    交换节点
+                    TreeNode treeNode = new TreeNode();
+                    treeNode = pop.left;
+                    pop.left = pop.right;
+                    pop.right = treeNode;
+                    if (pop.left!=null){
+                        node = pop.left;
+                    }
+                }
+            }
+            return root;
+        }
+
+
     }
 }
