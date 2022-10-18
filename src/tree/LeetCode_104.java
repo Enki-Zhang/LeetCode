@@ -41,6 +41,7 @@ public class LeetCode_104 {
             if (root != null) {
                 int L = maxDepth01(root.left);
                 int R = maxDepth01(root.right);
+//                最大深度是左右子树的最大深度加上根节点自己
                 return Math.max(L, R) + 1;
             } else return 0;
 
