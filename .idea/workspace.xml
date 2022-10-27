@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_116_.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_513.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/bsf/LeetCode_96.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_572.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_572.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +62,14 @@
     <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetC_232.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvn\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.8.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2EX30PTOZFUQZDtTKwb6zwcgo0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,7 +84,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.LeetCode_515">
     <configuration name="LeetCode_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -204,7 +222,18 @@
       <workItem from="1665883931164" duration="15031000" />
       <workItem from="1665970996188" duration="15781000" />
       <workItem from="1666061106778" duration="9580000" />
-      <workItem from="1666142185817" duration="20096000" />
+      <workItem from="1666142185817" duration="21930000" />
+      <workItem from="1666229772872" duration="10371000" />
+      <workItem from="1666314252204" duration="12390000" />
+      <workItem from="1666403487186" duration="4912000" />
+      <workItem from="1666423720356" duration="1813000" />
+      <workItem from="1666440573019" duration="2453000" />
+      <workItem from="1666489026428" duration="5761000" />
+      <workItem from="1666574769733" duration="10802000" />
+      <workItem from="1666748848759" duration="2921000" />
+      <workItem from="1666753010413" duration="5543000" />
+      <workItem from="1666768908148" duration="38000" />
+      <workItem from="1666768985409" duration="601000" />
     </task>
     <servers />
   </component>
@@ -258,6 +287,21 @@
           <url>file://$PROJECT_DIR$/src/tree/LeetCode_687.java</url>
           <line>11</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[404]左叶子之和.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_113.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_98.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

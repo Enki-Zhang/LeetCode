@@ -15,26 +15,28 @@ public class LeetCode_572 {
 
     //572. 另一棵树的子树
     class Solution {
+        List<Integer> pre = new LinkedList<>();
+        List<Integer> sub = new LinkedList<>();
+        boolean subtree1 = true;
+        boolean subtree = true;
+
 
         public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-//            非递归遍历
-            Queue<Integer> queue = new LinkedList<>();
-            Queue<Integer> queueSub = new LinkedList<>();
-            Stack<TreeNode> stack = new Stack<>();
-            while (!stack.isEmpty() || root != null) {
-                if (root != null) {
-                    if (root.val != subRoot.val) {
-                        queue.add(root.val);
+            Boolean flage = false;
+//            pre = tree(root, pre);
+//            sub = tree(subRoot, sub);
+            if (pre.equals(sub)) {
+                flage = true;
+            }
+            pre.clear();
+            sub.clear();
+            if (root.left != null) {
 
-                    }else {
-
-                    }
-                }
 
             }
-
-
             return false;
+
+
         }
 
         public List<Integer> tree(TreeNode root, LinkedList<Integer> list) {
