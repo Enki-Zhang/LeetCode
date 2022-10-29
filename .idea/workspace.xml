@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_106.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_113.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_513.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/bsf/LeetCode_96.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_572.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_572.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_337.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_530.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_98.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +228,10 @@
       <workItem from="1666753010413" duration="5543000" />
       <workItem from="1666768908148" duration="38000" />
       <workItem from="1666768985409" duration="601000" />
+      <workItem from="1666833974205" duration="11253000" />
+      <workItem from="1666920418328" duration="7128000" />
+      <workItem from="1666944821282" duration="19000" />
+      <workItem from="1667006940166" duration="3974000" />
     </task>
     <servers />
   </component>
@@ -289,19 +287,9 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[404]左叶子之和.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tree/LeetCode_113.java</url>
           <line>15</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tree/LeetCode_98.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

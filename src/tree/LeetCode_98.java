@@ -10,9 +10,10 @@ public class LeetCode_98 {
     public static void main(String[] args) {
     }
 
-    //    98. 验证二叉搜索树
+    //    98. 验证二叉搜索树  用顺序数组判断搜索树
     class Solution {
         ArrayList<Integer> arrayList = new ArrayList<>();
+
         public boolean isValidBST(TreeNode root) {
             inorderTree(root);
             ArrayList<Integer> integers = new ArrayList<>();
@@ -26,7 +27,6 @@ public class LeetCode_98 {
                 integers.add(next);
             }
             Collections.sort(arrayList);
-
             return arrayList.equals(integers);
         }
 
@@ -37,5 +37,24 @@ public class LeetCode_98 {
                 inorderTree(root.right);
             }
         }
+    }
+
+    class Solution_01 {
+//        这里不能new TreeNode赋值 new出来的对象不是空值
+        TreeNode node ;
+        public boolean isValidBST(TreeNode root) {
+//            中序遍历BST
+            if (root != null) {
+                boolean L = isValidBST(root.left);
+                if (node!=null&&node.val >= root.val) {
+                    return false;
+                }
+                node = root;
+                boolean R = isValidBST(root.right);
+                return L && R;
+            }
+            return true;
+        }
+
     }
 }
