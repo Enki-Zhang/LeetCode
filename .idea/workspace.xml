@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_530.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_383.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_454.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_501.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_617.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_144$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_144$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_145$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_145$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_515$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_515$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_106.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_106.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,15 +85,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_515">
-    <configuration name="LeetCode_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackAndQueue.LeetCode_239" />
+  <component name="RunManager" selected="Application.LeetCode_383">
+    <configuration name="LeetCode_242" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeHash.LeetCode_242" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackAndQueue.*" />
+          <option name="PATTERN" value="leetCodeHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackAndQueue.LeetCode_347" />
+    <configuration name="LeetCode_383" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeHash.LeetCode_383" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StackAndQueue.*" />
+          <option name="PATTERN" value="leetCodeHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,15 +155,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_383" />
+        <item itemvalue="Application.LeetCode_242" />
         <item itemvalue="Application.LeetCode_515" />
         <item itemvalue="Application.LeetCode_844" />
         <item itemvalue="Application.LeetCode_69" />
-        <item itemvalue="Application.LeetCode_347" />
-        <item itemvalue="Application.LeetCode_239" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Enki\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="" />
@@ -231,7 +241,14 @@
       <workItem from="1666833974205" duration="11253000" />
       <workItem from="1666920418328" duration="7128000" />
       <workItem from="1666944821282" duration="19000" />
-      <workItem from="1667006940166" duration="3974000" />
+      <workItem from="1667006940166" duration="4122000" />
+      <workItem from="1667096281511" duration="350000" />
+      <workItem from="1667178317698" duration="7942000" />
+      <workItem from="1667270460874" duration="7900000" />
+      <workItem from="1667308607034" duration="87000" />
+      <workItem from="1667351804959" duration="4817000" />
+      <workItem from="1667366607774" duration="1264000" />
+      <workItem from="1667440255581" duration="7217000" />
     </task>
     <servers />
   </component>
