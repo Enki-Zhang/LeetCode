@@ -81,19 +81,21 @@ public class LeetCode_236 {
             if (root == q || root == p) {
                 return root;
             }
-            TreeNode L = lowestCommonAncestor(root.left, p, q);
-            TreeNode R = lowestCommonAncestor(root.right, p, q);
-            if (L != null && R != null) {
-                return root;
+            //后序遍历
+            TreeNode L = lowestCommonAncestor(root.left, p, q);//向左子树搜素
+            TreeNode R = lowestCommonAncestor(root.right, p, q);//向右子树搜素
+            if (L == null && R == null) {
+                return null;
             }
             if (L != null && R == null) {
                 return L;
-            }
-            if (L == null && R != null) {
+            } else if (L == null && R != null) {
                 return R;
+            } else {
+                return root;
             }
+//            return null;
 
-            return null;
         }
 
     }

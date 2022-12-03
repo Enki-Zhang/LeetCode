@@ -29,6 +29,7 @@ public class LeetCode_15_ {
                 left = i + 1;
                 right = nums.length - 1;
                 while (left < right) {
+
                     if (nums[i] + nums[left] + nums[right] > 0) {//减小
                         right--;
                     } else if (nums[i] + nums[left] + nums[right] < 0) {
@@ -42,11 +43,12 @@ public class LeetCode_15_ {
                         if (!lists.contains(list)) {
                             lists.add(list);
                         }
+                        while (left<right&&nums[left]==nums[left+1])left++;
+                        while (left<right&&nums[right]==nums[right-1])right--;
 //                        找到一个目标
                         right--;
                     }
                 }
-
 //                list.clear();
             }
             return lists;

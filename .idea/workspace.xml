@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_15_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_448.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeLink/LeetCode_21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_541.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_Sw_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_Sw_58II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_383$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_383$Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_144_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_669.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/bsf/LeetCode_701.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/bsf/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_15_$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_15_$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_15_.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/leetCodeHash/LeetCode_15_.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_236$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_236$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_501$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_501$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_501.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_501.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_15_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeHash/LeetCode_15_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_501.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,22 +96,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_15_">
-    <configuration name="LeetCode_151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeString.LeetCode_151" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCodeString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tree.bsf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LeetCode_40">
     <configuration name="LeetCode_15_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeHash.LeetCode_15_" />
       <module name="code" />
@@ -119,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeLink.LeetCode_21" />
+    <configuration name="LeetCode_39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeBack.LeetCode_39" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeLink.*" />
+          <option name="PATTERN" value="leetCodeBack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_541" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeString.LeetCode_541" />
+    <configuration name="LeetCode_40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeBack.LeetCode_40" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeString.*" />
+          <option name="PATTERN" value="leetCodeBack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +143,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_Sw_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeString.LeetCode_Sw_05" />
+    <configuration name="LeetCode_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeBack.LeetCode_46" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCodeString.*" />
+          <option name="PATTERN" value="leetCodeBack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeBack.LeetCode_77" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeBack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_40" />
+        <item itemvalue="Application.LeetCode_39" />
+        <item itemvalue="Application.LeetCode_46" />
+        <item itemvalue="Application.LeetCode_77" />
         <item itemvalue="Application.LeetCode_15_" />
-        <item itemvalue="Application.LeetCode_21" />
-        <item itemvalue="Application.LeetCode_151" />
-        <item itemvalue="Application.LeetCode_Sw_05" />
-        <item itemvalue="Application.LeetCode_541" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +282,21 @@
       <workItem from="1668402504172" duration="3921000" />
       <workItem from="1668475144058" duration="16040000" />
       <workItem from="1668562339104" duration="7591000" />
-      <workItem from="1668647323331" duration="7404000" />
+      <workItem from="1668647323331" duration="9598000" />
+      <workItem from="1668737299357" duration="8164000" />
+      <workItem from="1668994061189" duration="10461000" />
+      <workItem from="1669080849998" duration="7958000" />
+      <workItem from="1669170447493" duration="19299000" />
+      <workItem from="1669341495687" duration="5056000" />
+      <workItem from="1669426665102" duration="2553000" />
+      <workItem from="1669516012399" duration="7538000" />
+      <workItem from="1669596667816" duration="1186000" />
+      <workItem from="1669598426277" duration="6815000" />
+      <workItem from="1669682989888" duration="6017000" />
+      <workItem from="1669769796569" duration="5342000" />
+      <workItem from="1669856071759" duration="690000" />
+      <workItem from="1669944190990" duration="8094000" />
+      <workItem from="1670031161288" duration="5999000" />
     </task>
     <servers />
   </component>
@@ -343,8 +368,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetCodeHash/LeetCode_15_.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_108.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java</url>
+          <line>30</line>
+          <properties class="leetCodeBack.LeetCode_46.Solution" method="backR">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -361,6 +399,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/code$LeetCode_206.ic" NAME="LeetCode_206 Coverage Results" MODIFIED="1664168441488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetCodeLink.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/code$LeetCode_46.ic" NAME="LeetCode_46 Coverage Results" MODIFIED="1669602895578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetCodeBack.*</FILTER>
     </SUITE>
   </component>
 </project>

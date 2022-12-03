@@ -1,4 +1,4 @@
-package tree;
+package tree.bsf;
 
 /**
  * @author Enki
