@@ -24,7 +24,6 @@ public class LeetCode_77 {
             backTrack(nums, k, 0);
             return lists;
         }
-
         public void backTrack(int[] nums, int k, int start) {
             if (list.size() == k) {
                 ArrayList<Integer> integers = new ArrayList<>(list);

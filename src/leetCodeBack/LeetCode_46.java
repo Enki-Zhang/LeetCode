@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class LeetCode_46 {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 1, 2};
         List<List<Integer>> permute = Solution.permute(nums);
         System.out.println(permute);
     }
@@ -19,6 +19,7 @@ public class LeetCode_46 {
     static class Solution {
         static List<List<Integer>> lists = new ArrayList<>();
         static List<Integer> list = new LinkedList<>();
+
         public static List<List<Integer>> permute(int[] nums) {
             Boolean[] used = new Boolean[nums.length];
             for (int i = 0; i < nums.length; i++) {
@@ -36,15 +37,13 @@ public class LeetCode_46 {
                 return;
             }
             for (int i = 0; i < nums.length; i++) {
-                if (used[i]){
+                if (used[i]) {
                     continue;
                 }
-                if (!used[i]) {
-                    list.add(nums[i]);
-                    used[i] = true;
-                }
+                list.add(nums[i]);
+                used[i] = true;
                 backR(nums, used);
-                list.remove(list.size()-1);
+                list.remove(list.size() - 1);
                 used[i] = false;
             }
         }

@@ -39,6 +39,7 @@ public class LeetCode_40 {
             }
 //            一层的for循环是当前数组的遍历
             for (int i = start; i < candidates.length; i++) {
+//                used[i - 1] == false 表示同一层中i-1已经使用过 因为是按照从前往后的顺序取元素 前一个元素没有使用肯定不在同一层中
                 if (i > 0 && !used[i - 1] && candidates[i] == candidates[i - 1]) {
                     continue;
                 }
