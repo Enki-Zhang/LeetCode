@@ -11,7 +11,8 @@ public class LeetCode_77 {
     public static void main(String[] args) {
 
     }
-//    组合问题
+
+    //    组合问题
     class Solution {
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
@@ -24,13 +25,14 @@ public class LeetCode_77 {
             backTrack(nums, k, 0);
             return lists;
         }
+
         public void backTrack(int[] nums, int k, int start) {
             if (list.size() == k) {
                 ArrayList<Integer> integers = new ArrayList<>(list);
                 lists.add(integers);
                 return;
             }
-//            剪枝
+//            剪枝 去掉一些长度不满足的树枝
 //            k - list.size() 为还需要遍历的元素个数
 //            nums.length - (k - list.size())+1 元素遍历的起始点 因为是顺序加入节点的
             for (int i = start; i < nums.length - (k - list.size()) + 1; i++) {

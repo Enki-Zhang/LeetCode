@@ -12,7 +12,7 @@ public class LeetCode_216 {
     public static void main(String[] args) {
 
     }
-//    组合优化 从1-9中找出k个和为n的数
+//    组合优化 从1-9中找出k个和为n的数 每个数字 最多使用一次
 
     class Solution {
         List<List<Integer>> lists = new ArrayList<>();

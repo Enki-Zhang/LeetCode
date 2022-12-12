@@ -17,7 +17,7 @@ public class LeetCode_40 {
 
     }
 
-    //    组合
+    //    组合 使用元素不能重复
     static class Solution {
         public List<List<Integer>> combinationSum2(int[] candidates, int target) {
             List<List<Integer>> lists = new ArrayList<>();
@@ -47,7 +47,7 @@ public class LeetCode_40 {
                 sum += candidates[i];
                 used[i] = true;
                 list.add(candidates[i]);
-//                控制下层循环的start  递归控制下层的for循环
+//                控制下层循环的start  递归控制下层的for循环 每个组合不能重复
                 backCom(candidates, target, sum, i + 1, used, list, lists);
                 sum -= candidates[i];
                 used[i] = false;
