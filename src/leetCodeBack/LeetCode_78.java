@@ -21,11 +21,9 @@ public class LeetCode_78 {
         List<List<Integer>> lists = new ArrayList<>();
 
         public List<List<Integer>> subsets(int[] nums) {
-
             for (int i = 0; i <= nums.length; i++) {
                 backTrack(nums, i, 0, new ArrayList<Integer>());
             }
-
             return lists;
         }
 

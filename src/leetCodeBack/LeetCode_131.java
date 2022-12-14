@@ -29,16 +29,16 @@ public class LeetCode_131 {
         }
 
         public void backPar(String s, int start, String str, LinkedList<String> list, List<List<String>> lists) {
-            if (start >=s.length()) {
+            if (start >= s.length()) {
                 ArrayList<String> strings = new ArrayList<>(list);
                 lists.add(strings);
                 return;
             }
             for (int i = start; i < s.length(); i++) {
-                if (!huiWen(s.substring(start,i+1))){
+                if (!huiWen(s.substring(start, i + 1))) {
                     continue;
                 }
-                list.add(s.substring(start,i+1));
+                list.add(s.substring(start, i + 1));
                 backPar(s, i + 1, "", list, lists);
 //                str = str.substring(0, str.length());
                 list.removeLast();
