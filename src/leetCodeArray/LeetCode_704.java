@@ -18,6 +18,8 @@ public class LeetCode_704 {
     static class Solution {
         public static int search(int[] nums, int target) {
             int index;
+            Integer a;
+
             return index = getIndex(nums, target, 0, nums.length-1);
         }
 

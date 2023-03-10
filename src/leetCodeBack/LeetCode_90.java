@@ -37,7 +37,9 @@ public class LeetCode_90 {
                 return;
             }
             for (int i = start; i < nums.length; i++) {
-//                层间去重
+                //                层间去重
+                // used[i - 1] == true，说明同⼀树⽀candidates[i - 1]使⽤过
+                // used[i - 1] == false，说明同⼀树层candidates[i - 1]使⽤过
                 if (i > 0 && nums[i - 1] == nums[i] && !used[i - 1]) {
                     continue;
                 }

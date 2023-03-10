@@ -17,48 +17,42 @@ public class LeetCode_491 {
     }
 
     // 找到递增的子数组
-//    找到所有子集 判断是否递增 数组不能排序 难点在于去重
+//    找到所有子集 判断是否递增 数组不能排序 不能用used数组 难点在于去重
     static class Solution {
         public List<List<Integer>> findSubsequences(int[] nums) {
             List<List<Integer>> lists = new LinkedList<>();
-            Boolean[] used = new Boolean[nums.length];
-            for (int i = 0; i < nums.length; i++) {
-                used[i] = false;
-            }
-            backSubSeq(nums, 0, used, lists, new LinkedList<Integer>());
+            backSubSeq(nums, 0, lists, new LinkedList<Integer>());
             return lists;
         }
 
-        public void backSubSeq(int[] nums, int start, Boolean[] used, List<List<Integer>> lists, LinkedList<Integer> list) {
-            if (isIncreat(list)) {
+        public void backSubSeq(int[] nums, int start, List<List<Integer>> lists, LinkedList<Integer> list) {
+            if (list.size()>1) {
                 ArrayList<Integer> integers = new ArrayList<>(list);
                 lists.add(integers);
+//                return;
             }
-            if (start >= nums.length) {
-                return;
-            }
+            int[] used = new int[201];
             for (int i = start; i < nums.length; i++) {
-//                if (i > 1 && nums[i - 1] == nums[i] && !used[i]) continue;
-                used[i] = true;
+                if (!list.isEmpty() && nums[i] < list.get(list.size()-1) || used[nums[i]+100]==1)continue;
+                used[nums[i]+100] = 1;
                 list.add(nums[i]);
-                backSubSeq(nums, i + 1, used, lists, list);
+                backSubSeq(nums, i+1 ,  lists, list);
                 list.removeLast();
-                used[i] = false;
             }
         }
 
-        Boolean isIncreat(List<Integer> list) {
-            Iterator<Integer> iterator = list.iterator();
-            if (list.size() < 2) return false;
-            int last = Integer.MIN_VALUE;
-            while (iterator.hasNext()) {
-                Integer next = iterator.next();
-                if (last > next) {
-                    return false;
-                }
-                last = next;
-            }
-            return true;
-        }
+//        Boolean isIncreat(List<Integer> list) {
+//            Iterator<Integer> iterator = list.iterator();
+//            if (list.size() < 2) return false;
+//            int last = Integer.MIN_VALUE;
+//            while (iterator.hasNext()) {
+//                Integer next = iterator.next();
+//                if (last > next) {
+//                    return false;
+//                }
+//                last = next;
+//            }
+//            return true;
+//        }
     }
 }
