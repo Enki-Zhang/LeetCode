@@ -18,30 +18,36 @@ public class LeetCode_20 {
             if (chars.length % 2 != 0) {
                 return false;
             }
-            for (char aChar : chars) {
+            boolean flag = false;
+            for (int i = 0; i < chars.length; i++) {
+                char aChar = chars[i];
                 if (aChar == '(' || aChar == '{' || aChar == '[') {
                     stack.push(aChar);
+                    flag = true;
                 } else if (!stack.isEmpty()) {
                     switch (aChar) {
                         case ')':
                             if (stack.peek() == '(') {
                                 stack.pop();
                                 break;
-                            }
+                            } else return false;
                         case ']':
                             if (stack.peek() == '[') {
                                 stack.pop();
                                 break;
-                            }
+                            } else return false;
                         case '}':
                             if (stack.peek() == '{') {
                                 stack.pop();
                                 break;
-                            }
+                            } else return false;
                     }
+                } else {
+                    return false;
                 }
+
             }
-            return stack.isEmpty();
+            return stack.isEmpty() && flag;
         }
     }
 

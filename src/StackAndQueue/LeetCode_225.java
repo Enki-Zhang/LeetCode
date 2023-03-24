@@ -24,13 +24,9 @@ public class LeetCode_225 {
         public void push(int x) {
             queueA.offer(x);
         }
-
-
         public int pop() {
-
-            while (!queueB.isEmpty()&&!queueA.isEmpty()) {
+            while (!queueB.isEmpty() && !queueA.isEmpty()) {
                 queueB.offer(queueA.poll());
-
             }
             if (queueB.isEmpty()) {
                 while (queueA.size() != 1) {
@@ -47,7 +43,7 @@ public class LeetCode_225 {
 
         public int top() {
 
-            while (!queueB.isEmpty()&&!queueA.isEmpty()) {//B不为空
+            while (!queueB.isEmpty() && !queueA.isEmpty()) {//B不为空
                 queueB.offer(queueA.poll());
 
             }
@@ -67,9 +63,7 @@ public class LeetCode_225 {
         }
 
         public boolean empty() {
-            if (queueA.isEmpty() && queueB.isEmpty()) {
-                return true;
-            } else return false;
+            return queueA.isEmpty() && queueB.isEmpty();
 
         }
     }

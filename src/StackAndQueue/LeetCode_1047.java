@@ -31,10 +31,7 @@ public class LeetCode_1047 {
                 stringBuilder.append(stack1.pop());
             }
 //            s1.contains(stack.pop())
-
-
             return stringBuilder.toString();
-
         }
     }
 
