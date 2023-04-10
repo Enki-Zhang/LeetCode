@@ -5,34 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="2022-12-18">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_01_dp_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_1049.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_188.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_343.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_416_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_421.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_957.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_dp_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_225_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_232_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_347_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwingII_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetCodeString/LeetCode_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/LeetCode_912.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_96.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swing_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swing_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeArray/SHINE_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/HasStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetCodeBack/LeetCode_77_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_101_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_102_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_104_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_107_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_112_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_113_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_226_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_236_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_556_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeetCode_701_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/Swing_54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/norecursion/LeetCode_144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/norecursion/LeetCode_145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/norecursion/LeetCode_94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_1047$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_1047$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_20$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_20$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_225$MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/StackAndQueue/LeetCode_225$MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/sort/LeetCode_912$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/sort/LeetCode_912$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/sort/LeetCode_912.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/sort/LeetCode_912.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/LeetCode_105$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/LeetCode_105$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/LeetCode_912.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/LeetCode_912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_199.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_199.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/LeetCode_236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/LeetCode_236.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,50 +65,64 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_27.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_26.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_22.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_977.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_142.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_27.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_26.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_704.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_40.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_77.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetC_232.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_216.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_39.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_22_2.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_17.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/tree/LeetCode_145.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/ListNode.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/LeetCode_957.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/LeetCode_746.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_19.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/sort/LeetCode_912.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/LeetCode_416.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Swing_9.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_977.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Swing_10.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_27.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_76.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_22.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_40.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Swing_9.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LeetCode_957.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LeetCode_746.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_39.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/LeetCode_1049.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_22_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_77.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_17.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/LeetCode_416.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_216.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/LeetCode_102_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/LeetCode_145.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/sort/LeetCode_912.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_27.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetC_232.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_225.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_142.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_20.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_347.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_707.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_1047_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/TreeNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_19.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_347_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/recursion/LeetCode_145.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/ListNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_83.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_203.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/recursion/LeetCode_144.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_82.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/norecursion/LeetCode_145.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_206.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/norecursion/LeetCode_144.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_0207.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/LeetCode_107_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_24.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/LeetCode_107.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/norecursion/LeetCode_94.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/tree/recursion/LeetCode_94.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_59.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_69.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_76.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_283.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_209.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_904.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_26.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_34.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_704.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -140,9 +156,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.LeetCode_912">
-    <configuration name="BagProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BagProblem" />
+    <configuration name="HasStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeArray.leetCodeArray_2.HasStatic" />
       <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeArray.leetCodeArray_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,9 +196,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_dp_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode_dp_01" />
+    <configuration name="SHINE_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeArray.SHINE_2" />
       <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCodeArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,10 +212,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LeetCode_912" />
+        <item itemvalue="Application.HasStatic" />
+        <item itemvalue="Application.SHINE_2" />
         <item itemvalue="Application.LeetCode_416_2" />
         <item itemvalue="Application.LeetCode_416" />
-        <item itemvalue="Application.LeetCode_dp_01" />
-        <item itemvalue="Application.BagProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +385,25 @@
       <workItem from="1679290768652" duration="1151000" />
       <workItem from="1679362216673" duration="13047000" />
       <workItem from="1679446144286" duration="8952000" />
-      <workItem from="1679619794349" duration="6500000" />
+      <workItem from="1679619794349" duration="7672000" />
+      <workItem from="1679796222174" duration="1792000" />
+      <workItem from="1679878688978" duration="8917000" />
+      <workItem from="1679967312487" duration="4110000" />
+      <workItem from="1680005509947" duration="15000" />
+      <workItem from="1680138201740" duration="5235000" />
+      <workItem from="1680174031684" duration="5612000" />
+      <workItem from="1680224496924" duration="1204000" />
+      <workItem from="1680312381704" duration="423000" />
+      <workItem from="1680353648546" duration="597000" />
+      <workItem from="1680487248229" duration="474000" />
+      <workItem from="1680487805102" duration="5195000" />
+      <workItem from="1680506562566" duration="5419000" />
+      <workItem from="1680572869580" duration="5572000" />
+      <workItem from="1680586830128" duration="594000" />
+      <workItem from="1680610111266" duration="316000" />
+      <workItem from="1680656684270" duration="5395000" />
+      <workItem from="1680744569169" duration="2821000" />
+      <workItem from="1681092211747" duration="4476000" />
     </task>
     <task id="LOCAL-00001" summary="2022-12-6">
       <created>1670299812492</created>
@@ -408,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678424031105</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022-12-18">
+      <created>1679797655228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679797655228</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,18 +559,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sort/LeetCode_912.java</url>
-          <line>91</line>
+          <line>89</line>
           <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/LeetCode_912.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_347.java</url>
           <line>16</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_102_2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_105.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_236_2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_77_2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java</url>

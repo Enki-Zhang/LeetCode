@@ -21,7 +21,7 @@ public class LeetCode_912 {
 
     //    直接插入排序
     static class Solution {
-        public static int[] sortArray_(int[] nums) {
+        public static int[] DirectInsertionSort(int[] nums) {
 //            从第二个元素开始 依次向前比较 遇见大的往后挪
             for (int i = 1; i < nums.length; i++) {
                 int tem = nums[i];
@@ -32,9 +32,7 @@ public class LeetCode_912 {
                 }
                 nums[j + 1] = tem;
             }
-
             return nums;
-
         }
     }
 
@@ -66,9 +64,9 @@ public class LeetCode_912 {
             for (int j = 0; j < nums.length - i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
                     Swap(j, j + 1, nums);
-//                    int tem = nums[j];
-//                    nums[j] = nums[j+1];
-//                    nums[j+1] = tem;
+                    int tem = nums[j];
+                    nums[j] = nums[j+1];
+                    nums[j+1] = tem;
                     isSwap = true;
                 }
 

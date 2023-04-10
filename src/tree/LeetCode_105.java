@@ -11,6 +11,9 @@ public class LeetCode_105 {
     //105. 从前序与中序遍历序列构造二叉树
     class Solution {
         public TreeNode buildTree(int[] preorder, int[] inorder) {
+            if (preorder.length==0){
+                return new TreeNode();
+            }
             return preAndMiddle(preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1);
         }
 

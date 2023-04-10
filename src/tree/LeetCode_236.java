@@ -94,8 +94,6 @@ public class LeetCode_236 {
             } else {
                 return root;
             }
-//            return null;
-
         }
 
     }

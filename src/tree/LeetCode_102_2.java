@@ -1,5 +1,6 @@
 package tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -8,30 +9,26 @@ import java.util.Queue;
  * @author Enki
  * @Version 1.0
  */
-public class LeetCode_199 {
+public class LeetCode_102_2 {
     public static void main(String[] args) {
+
     }
 
-    /**
-     * 右边视图 取出queue的末尾节点
-     */
+    //    层序遍历 队列模拟
     class Solution {
-        public List<Integer> rightSideView(TreeNode root) {
+        public List<List<Integer>> levelOrder(TreeNode root) {
             Queue<TreeNode> queue = new LinkedList<>();
-            List<Integer> list = new LinkedList<>();
-            if (root == null) {
-                return new LinkedList<>();
+            ArrayList<List<Integer>> lists = new ArrayList<>();
+            if (root != null) {
+                queue.add(root);
             }
-//            list.add(root.val);
-            queue.add(root);
             while (!queue.isEmpty()) {
                 int size = queue.size();
-                for (int i = 0; i < size; i++) {
+                ArrayList<Integer> integer = new ArrayList<>();
+                while (size > 0) {
                     TreeNode poll = queue.poll();
-//                    找到最右边的节点添加
-                    if (i == size - 1) {
-                        list.add(poll.val);
-                    }
+                    integer.add(poll.val);
+                    size -= 1;
                     if (poll.left != null) {
                         queue.add(poll.left);
                     }
@@ -39,8 +36,10 @@ public class LeetCode_199 {
                         queue.add(poll.right);
                     }
                 }
+                lists.add(integer);
             }
-            return list;
+            return lists;
+
         }
     }
 }
