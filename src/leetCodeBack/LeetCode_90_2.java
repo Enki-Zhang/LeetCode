@@ -36,6 +36,7 @@ public class LeetCode_90_2 {
                 return;
             }
             for (int i = start; i < nums.length; i++) {
+//                组间去重
                 if (i > 0 && !used[i - 1] && nums[i] == nums[i - 1]) {
                     continue;
                 }

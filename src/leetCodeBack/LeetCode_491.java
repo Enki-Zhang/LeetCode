@@ -19,25 +19,26 @@ public class LeetCode_491 {
     // 找到递增的子数组
 //    找到所有子集 判断是否递增 数组不能排序 不能用used数组 难点在于去重
     static class Solution {
+        List<List<Integer>> lists = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+
         public List<List<Integer>> findSubsequences(int[] nums) {
-            List<List<Integer>> lists = new LinkedList<>();
-            backSubSeq(nums, 0, lists, new LinkedList<Integer>());
+//            List<List<Integer>> lists = new LinkedList<>();
+            backSubSeq(nums, 0);
             return lists;
         }
 
-        public void backSubSeq(int[] nums, int start, List<List<Integer>> lists, LinkedList<Integer> list) {
-            if (list.size()>1) {
-                ArrayList<Integer> integers = new ArrayList<>(list);
-                lists.add(integers);
-//                return;
+        public void backSubSeq(int[] nums, int start) {
+            if (list.size() > 1) {
+                lists.add(new ArrayList<>(list));
             }
             int[] used = new int[201];
             for (int i = start; i < nums.length; i++) {
-                if (!list.isEmpty() && nums[i] < list.get(list.size()-1) || used[nums[i]+100]==1)continue;
-                used[nums[i]+100] = 1;
+                if (!list.isEmpty() && nums[i] < list.get(list.size() - 1) || used[nums[i] + 100] == 1) continue;
+                used[nums[i] + 100] = 1;
                 list.add(nums[i]);
-                backSubSeq(nums, i+1 ,  lists, list);
-                list.removeLast();
+                backSubSeq(nums, i + 1);
+                list.remove(list.size() - 1);
             }
         }
 
