@@ -11,7 +11,7 @@ public class LeetCode_111 {
 
     }
 
-    //取出二叉树的最小深度
+    //取出二叉树的最小深度 层序遍历 图的广度搜索
     class Solution {
         public int minDepth(TreeNode root) {
             Queue<TreeNode> queue = new LinkedList<>();

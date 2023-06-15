@@ -26,14 +26,15 @@ public class LeetCode_2 {
     static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             ListNode head = new ListNode();
-            ListNode pre = head;
-            int temp = 0;
+            ListNode pre = head; //头链表
+            int temp = 0;//进位
             while (l1 != null && l2 != null) {
                 int val = l1.val + l2.val + temp;
+//               有 进位
                 if (val >= 10) {
                     ListNode node = new ListNode();
-                    temp = 1;
-                    node.val = val - 10;
+                    temp = 1;//保留进位
+                    node.val = val - 10;//下一位
                     head.next = node;
                     head = node;
                 } else {

@@ -23,8 +23,10 @@ public class LeetCode_3 {
             int per = 0;
             int back = 0;
             char[] chars = s.toCharArray();
+//           一个字符一个字符的移动
             while (per < chars.length) {
                 back = per;
+//                轮数
                 while (back < chars.length) {
                     if (map.containsKey(chars[back])) {
                         max = Math.max(max, map.size());

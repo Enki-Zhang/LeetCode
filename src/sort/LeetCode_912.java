@@ -12,7 +12,8 @@ public class LeetCode_912 {
 //        Solution.sortArray_(nums);
 //        binarySearch(nums);
 //        BubbleSort(nums);
-        QuickSort(nums, 0, nums.length - 1);
+//        QuickSort(nums, 0, nums.length - 1);
+        BubbleSort(nums);
         for (int a :
                 nums) {
             System.out.print(a + " ");
@@ -63,7 +64,6 @@ public class LeetCode_912 {
             boolean isSwap = false;
             for (int j = 0; j < nums.length - i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
-                    Swap(j, j + 1, nums);
                     int tem = nums[j];
                     nums[j] = nums[j+1];
                     nums[j+1] = tem;
@@ -78,11 +78,6 @@ public class LeetCode_912 {
         return nums;
     }
 
-    private static void Swap(int j, int i, int[] nums) {
-        int tem = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tem;
-    }
 
     //    快排
     public static int[] QuickSort(int[] nums, int low, int high) {
