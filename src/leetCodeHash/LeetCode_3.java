@@ -14,7 +14,9 @@ public class LeetCode_3 {
 
     }
 
-    //    无重复的最长子串
+    /**
+     * 无重复的最长子串 双指针 尾指针从前往后 加入hashMap中 如果hashmap中有重复的则头指针移动，并更新max值
+     */
   static class Solution {
         public static int lengthOfLongestSubstring(String s) {
 //            存储每个字符出现的次数
