@@ -4,18 +4,20 @@
  */
 public class LeetCode_69 {
     public static void main(String[] args) {
-        int x = 4;
-        System.out.println(x>>2);
+        Solution solution = new Solution();
+        int i = solution.mySqrt(2147395600);
+        System.out.println(i);
+
 
     }
 
     /**
-     * 平方根
+     * 平方根 使用对数转为平方根 double 会产生误差
      */
-    class Solution {
+    static class Solution {
         public int mySqrt(int x) {
-            return 0;
-
+            int result = (int) Math.exp(Math.log(x)/2);
+            return ((long) (result+1)*(result+1) > x? (int) result : (int) result+1);
         }
     }
 }
