@@ -4,7 +4,7 @@
  */
 public class LeetCode_50 {
     public static void main(String[] args) {
-        double v = new Solution().myPow(2.00000, -2);
+        double v = new Solution().myPow(2.00000, 3);
         System.out.println(v);
 
     }

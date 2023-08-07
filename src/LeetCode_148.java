@@ -18,7 +18,6 @@ public class LeetCode_148 {
             boolean flag=  true;
             while (head!=null) {
                 flag = false;
-
             }
 
 

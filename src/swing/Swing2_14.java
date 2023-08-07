@@ -10,14 +10,37 @@ public class Swing2_14 {
     }
 
     /**
-     * 剪绳子 证明：大数字都可以被拆分为多个2与3的和以获取最大的乘积，只有 2 和 3 不需要拆分
+     * 整数拆分： 证明：大数字都可以被拆分为多个2与3的和以获取最大的乘积，只有 2 和 3 不需要拆分
+     * 分解式应该尽可能的拆分成更多的3。当只剩下4的时候，就直接取4就是最大值 (不能将整数直接拆分为3的个数 当n=10时 要拆成 3+3+4 不能拆成3+3+3+1)
      */
     class Solution {
         public int cuttingRope(int n) {
+            int product = 1;
+            if (n <= 2) {
+                return 1;
+            }
+            if (n == 3)
+                return 2;
+            if (n == 4)
+                return 4;
+            while (n > 4) {
+                product *= 3;
+                n -= 3;
+            }
+            product *= n;
+            return product;
+        }
 
-
+        /**
+         * 使用动态规划 状态转移：dp[i]= dp[i-j] * j;
+         *dp[i] = max((i-j)*j, dp[i-j] * j)
+         *
+         * @param n
+         * @return
+         */
+        public int dpCut(int n) {
             return 0;
-
         }
     }
+
 }
