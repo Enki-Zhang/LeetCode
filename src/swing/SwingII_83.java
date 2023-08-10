@@ -1,31 +1,28 @@
+package swing;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author Enki
  * @Version 1.0
  */
-public class SwingII_084 {
+public class SwingII_83 {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2};
+        int[] nums = {1,2,3};
         Solution solution = new Solution();
-        List<List<Integer>> permute = solution.permuteUnique(nums);
+        List<List<Integer>> permute = solution.permute(nums);
         permute.forEach(System.out::println);
-        double x = 0.0 ;
-        int n=0;
-        double pow = Math.pow(x, n);
-        System.out.println(pow);
+
 
     }
+// 没有重复元素集合的全排列 组内和组间不重复
 
-    //
     static class Solution {
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
 
-        public List<List<Integer>> permuteUnique(int[] nums) {
-            Arrays.sort(nums);
+        public List<List<Integer>> permute(int[] nums) {
             boolean[] visit = new boolean[nums.length];
             back(nums, 0, visit);
             return lists;
@@ -35,20 +32,17 @@ public class SwingII_084 {
             if (list.size() == nums.length) {
                 lists.add(new ArrayList<>(list));
             }
+//            i从index开始当遍历到末尾数字后3后 index++不能够再回来取到2 所以每次遍历都要从头开始
             for (int i = 0; i < nums.length; i++) {
-//                不同树枝之间的去重
-                if (i > 0 && !visit[i - 1] && nums[i] == nums[i - 1]) continue;
-//                同一个树枝的去重
                 if (visit[i]) continue;
-                visit[i] = true;
                 list.add(nums[i]);
+                visit[i] = true;
                 back(nums, i + 1, visit);
                 list.remove(list.size() - 1);
                 visit[i] = false;
-
             }
 
-
         }
+
     }
 }
