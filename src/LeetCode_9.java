@@ -12,7 +12,7 @@ public class LeetCode_9 {
 
     }
 
-  static   class Solution {
+    static class Solution {
         public boolean isPalindrome(int x) {
             String s = "";
             while (x != 0) {
@@ -21,7 +21,7 @@ public class LeetCode_9 {
                 x /= 10;
             }
             for (int i = 0; i < s.length() / 2; i++) {
-                if (s.charAt(i)!=s.charAt(s.length()-i-1)){
+                if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
                     return false;
                 }
             }
