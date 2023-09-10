@@ -8,7 +8,7 @@ import java.util.List;
 public class LeetCode_17 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.letterCombinations(""));
+        System.out.println(solution.letterCombinations("23"));
 
 
     }

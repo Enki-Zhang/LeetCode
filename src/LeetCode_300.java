@@ -18,6 +18,9 @@ public class LeetCode_300 {
 
     }
 
+    /**
+     * 回溯方法 分割子串问题
+     */
     static class Solution {
         List<List<Integer>> lists = new LinkedList<>();
         List<Integer> list = new LinkedList<>();
@@ -44,12 +47,10 @@ public class LeetCode_300 {
             for (int i = index; i < nums.length; i++) {
 //               如果当前元素在上一层使用过
                 if (isUsed.containsKey(nums[i])) continue;
-                if (list.size() > 0 && list.get(list.size() - 1) >= nums[i])
-                    continue;
+                if (list.size() > 0 && list.get(list.size() - 1) >= nums[i]) continue;
                 list.add(nums[i]);
                 isUsed.put(nums[i], true);
                 back(nums, i + 1);
-//                isUsed.remove(nums[i]);
                 list.remove(list.size() - 1);
 
             }
