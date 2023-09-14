@@ -1,3 +1,4 @@
+import java.nio.IntBuffer;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -19,7 +20,11 @@ public class LeetCode_912 {
 //            strings[i] = scanner.nextLine();
 //        }
         Solution solution = new Solution();
-        System.out.println(solution.sortArray(new int[]{5, 2, 3, 1}));
+        int[] ints = solution.sortArray(new int[]{-2, 3, -5});
+        for (int a :
+                ints) {
+            System.out.println(a);
+        }
     }
 
     /**
@@ -27,29 +32,17 @@ public class LeetCode_912 {
      */
     static class Solution {
         public int[] sortArray(int[] nums) {
-            return quickArray(nums);
-
+            return heapSorting(nums);
         }
 
         /**
-         * 快排 递归的选择一个基准 根据基准进行分类排序
+         * 快排
          *
          * @param nums
-         * @return
-         */
-        public int[] quickArray(int[] nums) {
-            return quickSort(nums, 0, nums.length - 1);
-        }
-
-        /**
-         * 每趟排序选取一个基准 将未排序的数组通过基准进行分开
-         *
-         * @param nums
-         * @param left
-         * @param right
          * @return
          */
         private int[] quickSort(int[] nums, int left, int right) {
+//            一直划分到只有一个元素
             if (left < right) {
                 int index = div(nums, left, right);
                 quickSort(nums, left, index - 1);
@@ -59,8 +52,6 @@ public class LeetCode_912 {
         }
 
         /**
-         * 将第一个数字作为基准
-         *
          * @param nums
          * @param left
          * @param right
@@ -105,5 +96,70 @@ public class LeetCode_912 {
             nums[b] = temp;
         }
 
+        /**
+         * 选择排序 每趟选择一个最小的元素放到未排序队列的头
+         *
+         * @param nums
+         * @return
+         */
+        private int[] selectSort(int[] nums) {
+            for (int i = 0; i < nums.length - 1; i++) {
+                int min = i;
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[min] > nums[j]) {
+                        min = j;
+                    }
+                }
+                swap(nums, min, i);
+            }
+            return nums;
+        }
+
+        /**
+         * 堆排序 构建大根堆每次取出根节点后将堆底元素放入到根节点位置后重新排列
+         *
+         * @param nums
+         */
+        private int[] heapSorting(int[] nums) {
+            int n = nums.length;
+//            n/2-1 是最后一个叶子节点的父节点
+            for (int i = n / 2 - 1; i >= 0; i--) {
+                heapAdj(nums, n, i);
+            }
+// 取出堆顶元素 重新调整
+            for (int i = n - 1; i >= 0; i--) {
+                swap(nums, 0, i);
+                heapAdj(nums, i, 0);
+            }
+            return nums;
+        }
+
+        /**
+         * 构建大根堆
+         *
+         * @param nums   数组
+         * @param length 数组长度
+         * @param i      父节点位置
+         */
+        private void heapAdj(int[] nums, int length, int i) {
+            int largest = i;//三个节点中的最大值位置
+            int lChild = 2 * i + 1;
+            int rChild = 2 * i + 2;
+//            找到节点中的最大值
+            if (lChild < length && nums[lChild] > nums[largest]) {
+                largest = lChild;
+            }
+            if (rChild < length && nums[rChild] > nums[largest]) {
+                largest = rChild;
+            }
+//            最大值不是根节点 进行交换
+            if (largest != i) {
+                swap(nums, largest, i);
+//                调整子树
+                heapAdj(nums, length, largest);
+            }
+
+
+        }
     }
 }
