@@ -1,4 +1,4 @@
-package exam;
+package exam.wz;
 
 import org.w3c.dom.ls.LSException;
 

@@ -1,5 +1,6 @@
 import java.nio.IntBuffer;
 import java.util.Arrays;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 /**
@@ -11,16 +12,14 @@ import java.util.Scanner;
  */
 public class LeetCode_912 {
     public static void main(String[] args) {
-////        控制台输入
-//        Scanner scanner = new Scanner(System.in);
-//        int n = scanner.nextInt();
-//        String[] strings = new String[n];
-//        scanner.nextLine();//将键入的数字后面的换行符吸收掉
-//        for (int i = 0; i < n; i++) {
-//            strings[i] = scanner.nextLine();
-//        }
-        Solution solution = new Solution();
-        int[] ints = solution.sortArray(new int[]{-2, 3, -5});
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = scanner.nextInt();
+        }
+        Solution3 solution = new Solution3();
+        int[] ints = solution.sortArray(nums);
         for (int a :
                 ints) {
             System.out.println(a);
@@ -32,32 +31,19 @@ public class LeetCode_912 {
      */
     static class Solution {
         public int[] sortArray(int[] nums) {
-            return heapSorting(nums);
+            return quickSort(nums, 0, nums.length - 1);
         }
 
-        /**
-         * 快排
-         *
-         * @param nums
-         * @return
-         */
-        private int[] quickSort(int[] nums, int left, int right) {
-//            一直划分到只有一个元素
+        public int[] quickSort(int[] nums, int left, int right) {
             if (left < right) {
                 int index = div(nums, left, right);
-                quickSort(nums, left, index - 1);
-                quickSort(nums, index + 1, right);
+                div(nums, left, index - 1);
+                div(nums, index + 1, right);
             }
             return nums;
         }
 
-        /**
-         * @param nums
-         * @param left
-         * @param right
-         * @return
-         */
-        private int div(int[] nums, int left, int right) {
+        public int div(int[] nums, int left, int right) {
             int temp = nums[left];
             while (left < right) {
                 while (left < right && nums[right] >= temp) right--;
@@ -160,6 +146,55 @@ public class LeetCode_912 {
             }
 
 
+        }
+    }
+
+    /**
+     * 冒泡排序
+     */
+    static class Solution2 {
+        public int[] sortArray(int[] nums) {
+            return maoPao(nums);
+        }
+
+        public int[] maoPao(int[] nums) {
+            int len = nums.length;
+            for (int i = 0; i < len - 1; i++) {
+                boolean flag = false;//判断每一趟排序是否已经有序
+                for (int j = 0; j < nums.length - 1 - i; j++) {
+                    if (nums[j] > nums[j + 1]) {
+                        int tem = nums[j];
+                        nums[j] = nums[j + 1];
+                        nums[j + 1] = tem;
+                        flag = true;
+                    }
+                }
+                if (!flag) {
+                    break;
+                }
+            }
+            return nums;
+        }
+    }
+
+    /**
+     * 堆排序
+     */
+    static class Solution3 {
+        public int[] sortArray(int[] nums) {
+//            todo
+            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+            for (int a :
+                    nums) {
+                priorityQueue.add(a);
+            }
+            int i = 0;
+            while (!priorityQueue.isEmpty()){
+                nums[i] = priorityQueue.poll();
+                i++;
+            }
+            return nums;
+//            return null;
         }
     }
 }

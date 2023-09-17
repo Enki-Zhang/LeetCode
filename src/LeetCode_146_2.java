@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * @author Enki
@@ -33,6 +34,9 @@ public class LeetCode_146_2 {
         public LRUCache(int capacity) {
             map = new LinkedHashMap<>(capacity,0.75f,true);//设置维护插入的顺序
             this.capacity = capacity;
+            Queue<Integer> queue = new LinkedList();
+            LinkedBlockingDeque<Integer> integers = new LinkedBlockingDeque<>();
+
         }
 
         public int get(int key) {

@@ -1,4 +1,4 @@
-package exam;
+package exam.wz;
 
 import java.util.ArrayList;
 import java.util.Random;
