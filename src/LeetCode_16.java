@@ -1,3 +1,4 @@
+import java.nio.file.Paths;
 import java.util.Arrays;
 
 /**
@@ -7,7 +8,7 @@ import java.util.Arrays;
 public class LeetCode_16 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] ints = {-1,2,1,-4};
+        int[] ints = {-1, 2, 1, -4};
         int i = solution.threeSumClosest(ints, 1);
         System.out.println(i);
     }
@@ -19,43 +20,30 @@ public class LeetCode_16 {
     static class Solution {
         public int threeSumClosest(int[] nums, int target) {
             Arrays.sort(nums);
-            int index = 0;
-            int min = 0;
-            for (int i = 0; i < nums.length; i++) {
-                int left = index + 1;
+            int min = Integer.MAX_VALUE;
+            int a = 0;
+            for (int i = 0; i < nums.length - 2; i++) {
+                int left = i + 1;
                 int right = nums.length - 1;
-                if (i > 0 && nums[i] == nums[i - 1]) {
-                    continue;
-                }
-                while (left < right) {
-                    int sum = nums[left] + nums[right] + nums[i];
 
-//                    当前差距
-                    int length = Math.abs(sum - target);
-//                    差距比上一次小
-                    if (length < min) {
-//                        继续缩小
+                while (left < right) {
+                    int res = nums[i] + nums[left] + nums[right];
+                    int cha = Math.abs(res - target);
+                    if (cha < min) {
+                        min = cha;
+                        a = res;
+                    }
+                    if (res == target) {
+                        return res;
+                    } else if (res > target) {
+                        right--;
+                    } else {
                         left++;
                     }
-                    if (length > min) {
-//                        缩小差距
-                        right--;
-                    }
-                    if (length == min) {
-                        while (left < right && nums[left] == nums[left-1]) {
-                            left--;
-                        }
-                        while (left < right && nums[right] == nums[right+1]) {
-                            right++;
-                        }
-                    }
-                    min = Math.min(min, length);
-
-
                 }
-            }
 
-            return min;
+            }
+            return a;
         }
     }
 }
