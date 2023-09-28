@@ -51,7 +51,7 @@ public class LeetCode_912 {
         }
 
         private int divIndex(int[] nums, int left, int right) {
-            int temp = nums[left];
+            int temp = nums[left];//不能写成 temp = left  left上的元素一直再改变
             while (left < right) {
                 while (left < right && nums[right] >= temp) right--;
                 nums[left] = nums[right];
@@ -61,6 +61,7 @@ public class LeetCode_912 {
             nums[left] = temp;
             return left;
         }
+
     }
 
     /**

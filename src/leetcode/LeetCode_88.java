@@ -11,27 +11,71 @@ import java.util.Arrays;
 public class LeetCode_88 {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] a = {1, 2, 3, 0, 0, 0};
-        int[] b = {2, 5, 6};
-        solution.merge(a, 6, b, 3);
+        int[] a = {0, 0};
+        int[] b = {2};
+        solution.merge(a, 1, b, 1);
 
 
     }
 
     /**
-     * 合并两个递增数组 每个数组一个指针 将顺序添加到新建的数组中去
-     * 若数组a 元素小于b元素 a指针++
-     * 若a大于b元素 将b元素插入a中a指针前面 a指针++ b指针后移
-     * a==b 将b插入到a后面 a+2 b++
-     *
-     * 直接全部插入后排序
+     * 合并两个递增数组 归并排序合并部分
+     */
+    static class Solution2 {
+        public void merge(int[] nums1, int m, int[] nums2, int n) {
+            int[] arrays = new int[m];
+            for (int i = 0; i < m; i++) {
+                arrays[i] = nums1[i];
+            }
+            int left = 0;
+            int right = 0;
+            int index = 0;
+            for (left = 0, right = 0; left < m && right < n; ) {
+                if (arrays[left] < nums2[right]) {
+                    nums1[index] = arrays[left];
+                    index++;
+                    left++;
+                } else {
+                    nums1[index] = nums2[right];
+                    index++;
+                    right++;
+                }
+            }
+            while (left < m) {
+                nums1[index] = arrays[left];
+                index++;
+                left++;
+            }
+            while (right < n) {
+                nums1[index] = nums2[right];
+                index++;
+                right++;
+            }
+
+        }
+    }
+
+    /**
+     * O(n) 方法 使用双指针 从后往前扫描 大者覆盖到末尾 一直到nums2扫描完成
      */
     static class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
-            for (int i = 0; i < nums2.length; i++) {
-                nums1[m + i] = nums2[i];
+
+            int nums1Tail = m - 1;
+            int nums2Tail = n - 1;
+            int index = m + n - 1;
+            while (nums2Tail >= 0) {
+//                这里判断nums1Tail >= 0 即使nums中没有元素也能插入
+                if (nums1Tail >= 0 && nums1[nums1Tail] > nums2[nums2Tail]) {
+                    nums1[index] = nums1[nums1Tail];
+                    index--;
+                    nums1Tail--;
+                } else {
+                    nums1[index] = nums2[nums2Tail];
+                    index--;
+                    nums2Tail--;
+                }
             }
-            Arrays.sort(nums1);
         }
     }
 }
