@@ -25,7 +25,7 @@ public class LeetCode_912 {
 //                ints) {
 //            System.out.println(a);
 //        }
-        Solution solution5 = new Solution();
+        Solution6 solution5 = new Solution6();
         int[] ints = solution5.sortArray(new int[]{3, 2, 1, 5, 6, 4});
         for (int a :
                 ints) {
@@ -51,11 +51,11 @@ public class LeetCode_912 {
         }
 
         private int divIndex(int[] nums, int left, int right) {
-            int temp = nums[left];//不能写成 temp = left  left上的元素一直再改变
+            int temp = nums[left];
             while (left < right) {
-                while (left < right && nums[right] >= temp) right--;
+                while (left < right && temp <= nums[right]) right--;
                 nums[left] = nums[right];
-                while (left < right && nums[left] <= temp) left++;
+                while (left < right && temp >= nums[left]) left++;
                 nums[right] = nums[left];
             }
             nums[left] = temp;

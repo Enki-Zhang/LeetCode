@@ -19,7 +19,7 @@ public class LeetCode_21 {
     /**
      * 合并两个有序链表
      */
-    class Solution {
+    class Solution2 {
         public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 
             ListNode pre = new ListNode();
@@ -33,11 +33,38 @@ public class LeetCode_21 {
                     list1 = temp;
                 }
                 pre = pre.next;
-                list1=list1.next;
+                list1 = list1.next;
                 list2 = list2.next;
             }
 
             return res;
+        }
+    }
+
+    /**
+     * 合并有序链表 类似二路归并合并 2中的元素<1中的元素使用头插法进去 完成后返回1链表
+     */
+    class Solution {
+        public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+//            给定头节点
+            ListNode res = new ListNode(-1);
+            ListNode pre = res;
+            while (list1 != null && list2 != null) {
+                if (list1.val <= list2.val) {
+                    pre.next = list1;
+                    list1 = list1.next;
+                } else {
+                    pre.next = list2;
+                    list2 = list2.next;
+                }
+                pre = pre.next;
+            }
+            if (list1 != null) {
+                pre.next = list1;
+            } else if (list2 != null) {
+                pre.next = list2;
+            }
+            return res.next;
         }
     }
 }
