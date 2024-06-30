@@ -1,6 +1,8 @@
 import com.sun.org.apache.bcel.internal.generic.FADD;
 import leetCodeLink.ListNode;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -12,6 +14,9 @@ import java.util.List;
  */
 public class LeetCode_142 {
     public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        LinkedList<Integer> list1 = new LinkedList<>();
+
 
     }
 
