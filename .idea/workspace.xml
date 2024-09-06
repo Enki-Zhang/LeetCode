@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/leetcode02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_2_367.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_2_69.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_977.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_34.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_34.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +69,20 @@
       <recent name="tree.bsf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_977">
+  <component name="RunManager" selected="Application.LeetCode_209">
+    <configuration name="LeetCode_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_209" />
+      <module name="leetcode02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_27" />
       <module name="leetcode02" />
@@ -111,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode_704" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_2.LeetCode_704" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeetCode_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_977" />
       <module name="leetcode02" />
@@ -139,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_209" />
         <item itemvalue="Application.LeetCode_977" />
         <item itemvalue="Application.LeetCode_27" />
         <item itemvalue="Application.LeetCode_2_367" />
         <item itemvalue="Application.LeetCode_2_34" />
-        <item itemvalue="Application.LeetCode_704" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +375,7 @@
       <workItem from="1724743537923" duration="73000" />
       <workItem from="1724743619621" duration="10916000" />
       <workItem from="1725525435397" duration="2404000" />
-      <workItem from="1725584421207" duration="2235000" />
+      <workItem from="1725584421207" duration="7151000" />
     </task>
     <task id="LOCAL-00001" summary="2022-12-6">
       <created>1670299812492</created>
@@ -455,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724742748366</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024-9-6">
+      <created>1725590241146</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725590241146</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +471,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/testNewtag" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -486,6 +485,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="滑动窗口" />
     <MESSAGE value="2022-12-6" />
     <MESSAGE value="2022-12-7" />
@@ -495,7 +496,8 @@
     <MESSAGE value="2022-12-18" />
     <MESSAGE value="2024-7-24" />
     <MESSAGE value="2024-8-27" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-8-27" />
+    <MESSAGE value="2024-9-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-9-6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,7 +664,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_27.java</url>
-          <line>23</line>
+          <line>13</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
