@@ -52,6 +52,43 @@ public class LeetCode_34 {
             return -1;
         }
     }
+    class Solution2 {
+        public int[] searchRange(int[] nums, int target) {
 
+            int left = 0;
+            int right = nums.length - 1;
+            int mid = 0;
+            int L = left;//左边界
+            int R = right;//有边界
+            while (left <= right) {
+                mid = left + ((right - left) >> 1);
+                //               修改边界
+                if (nums[mid] > target) {
+//                   目标值在左边
+                    right = mid - 1;
+                }
+                if (nums[mid] < target) {
+//                    目标值在右边
+                    left = mid + 1;
+                }
+                if (nums[mid] == target) {
+                    R = mid;
+                    L = mid;
+//                  找到目标值
+                    while (R < nums.length - 1 && nums[R + 1] <= target) {
+                        R++;
+                    }
+                    while (L > 0 && nums[L - 1] >= target) {
+                        L--;
+                    }
+
+                    return new int[]{L, R};
+                }
+
+            }
+            return new int[]{-1, -1};
+
+        }
+    }
 
 }
