@@ -22,20 +22,22 @@ public class LeetCode_209 {
 
     class Solution {
         public int minSubArrayLen(int target, int[] nums) {
-//            将数组从大到小排序 从头开始递减每个元素 若第一个元素大于目标值已经超出边界
-//            2. 不断递减直到0
-//            反转数组
-            int len = 0;
-
-            int[] ints = Arrays.stream(nums).boxed().sorted(Comparator.reverseOrder()).mapToInt(Integer::intValue).toArray();
-
-            for (int i = 0; i < nums.length; i++) {
-                if (target != 0) {
+            //使用滑动窗口 找到数组中满足条件的子数组
+            int start = 0;
+            int end = 0;
+            int sum = 0;//目标比较
+            int len = Integer.MAX_VALUE; //数组长度
+//            start从头遍历 end从start开始寻找满足条件的数组
+            for (end = 0; end < nums.length; end++) {
+                sum += nums[end];
+                while (sum >= target) {
+                    len = Math.min(len, end - start + 1);
+                    sum -= nums[start];
+                    start++;//窗口后移
 
                 }
             }
-            return 0;
-
+            return len == Integer.MAX_VALUE ? 0 : len;
         }
     }
 }

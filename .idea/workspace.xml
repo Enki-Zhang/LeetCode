@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,6 +376,7 @@
       <workItem from="1724743619621" duration="10916000" />
       <workItem from="1725525435397" duration="2404000" />
       <workItem from="1725584421207" duration="7151000" />
+      <workItem from="1725957274846" duration="3383000" />
     </task>
     <task id="LOCAL-00001" summary="2022-12-6">
       <created>1670299812492</created>
