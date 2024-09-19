@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1dbaa3dc-87bf-403e-a859-b55a502346d0" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_76.java" afterDir="false" />
+=======
+    <list default="true" id="868de753-a60d-4460-989f-41884cac5011" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_209.java" afterDir="false" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/leetcode/LeetCode_957.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/LeetCode_746.java" root0="FORCE_HIGHLIGHTING" />
@@ -131,6 +138,24 @@
     <setting file="file://$PROJECT_DIR$/src/leetcode/LeetCode_146.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2ia6R2WgJwtsjz5KgccM4G9wg7r" />
+=======
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mvn\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EX30PTOZFUQZDtTKwb6zwcgo0Z" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -138,17 +163,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.LeetCode_26">
     <configuration name="LeetCode_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_26" />
+=======
+  <component name="RunManager" selected="Application.LeetCode_209">
+    <configuration name="LeetCode_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_209" />
       <module name="leetcode02" />
       <extension name="coverage">
         <pattern>
@@ -162,6 +206,7 @@
     </configuration>
     <configuration name="LeetCode_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_27" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
       <module name="leetcode02" />
       <extension name="coverage">
         <pattern>
@@ -173,12 +218,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="LeetCode_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_27" />
+=======
+    <configuration name="LeetCode_2_34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode_2_34" />
+      <module name="code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_2_367" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_2_367" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
+      <module name="leetcode02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+<<<<<<< HEAD
+=======
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_977" />
+      <module name="leetcode02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.LeetCode_26" />
         <item itemvalue="Application.LeetCode_27" />
+=======
+        <item itemvalue="Application.LeetCode_209" />
+        <item itemvalue="Application.LeetCode_977" />
+        <item itemvalue="Application.LeetCode_27" />
+        <item itemvalue="Application.LeetCode_2_367" />
+        <item itemvalue="Application.LeetCode_2_34" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -187,6 +289,7 @@
       <created>1719716332658</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1719716332658</updated>
       <workItem from="1719716334636" duration="1038000" />
       <workItem from="1720342980722" duration="101000" />
@@ -194,6 +297,228 @@
       <workItem from="1724715647469" duration="11757000" />
       <workItem from="1726290754900" duration="1976000" />
       <workItem from="1726747182911" duration="3317000" />
+=======
+      <updated>1662727877716</updated>
+      <workItem from="1662727879114" duration="14979000" />
+      <workItem from="1662883550185" duration="10292000" />
+      <workItem from="1662960427540" duration="15503000" />
+      <workItem from="1663044671196" duration="14528000" />
+      <workItem from="1663128828751" duration="4048000" />
+      <workItem from="1663140269338" duration="604000" />
+      <workItem from="1663217541546" duration="8967000" />
+      <workItem from="1663246310679" duration="608000" />
+      <workItem from="1663292989264" duration="17599000" />
+      <workItem from="1663379633773" duration="3416000" />
+      <workItem from="1663466153742" duration="7801000" />
+      <workItem from="1663550159016" duration="7079000" />
+      <workItem from="1663635886590" duration="5514000" />
+      <workItem from="1663721650953" duration="4408000" />
+      <workItem from="1663809737877" duration="14140000" />
+      <workItem from="1663894960824" duration="22193000" />
+      <workItem from="1663981587138" duration="10092000" />
+      <workItem from="1664067554024" duration="594000" />
+      <workItem from="1664154292060" duration="10646000" />
+      <workItem from="1664241070084" duration="10556000" />
+      <workItem from="1664328360275" duration="2448000" />
+      <workItem from="1664414811072" duration="745000" />
+      <workItem from="1664427372144" duration="1188000" />
+      <workItem from="1664501452791" duration="939000" />
+      <workItem from="1664715691767" duration="1813000" />
+      <workItem from="1664761562628" duration="25799000" />
+      <workItem from="1664951497652" duration="974000" />
+      <workItem from="1665017434149" duration="4317000" />
+      <workItem from="1665040515780" duration="239000" />
+      <workItem from="1665040779149" duration="12000" />
+      <workItem from="1665057167953" duration="6418000" />
+      <workItem from="1665104275902" duration="18457000" />
+      <workItem from="1665191961256" duration="3970000" />
+      <workItem from="1665204195655" duration="10432000" />
+      <workItem from="1665232348805" duration="1936000" />
+      <workItem from="1665280183528" duration="3216000" />
+      <workItem from="1665289644112" duration="9000" />
+      <workItem from="1665289666504" duration="4698000" />
+      <workItem from="1665294659578" duration="12792000" />
+      <workItem from="1665328122119" duration="415000" />
+      <workItem from="1665364217818" duration="20954000" />
+      <workItem from="1665451834126" duration="18375000" />
+      <workItem from="1665539185244" duration="18494000" />
+      <workItem from="1665627677099" duration="9468000" />
+      <workItem from="1665711509445" duration="985000" />
+      <workItem from="1665712518585" duration="623000" />
+      <workItem from="1665713244020" duration="38000" />
+      <workItem from="1665713321559" duration="6729000" />
+      <workItem from="1665797160662" duration="11194000" />
+      <workItem from="1665883931164" duration="15031000" />
+      <workItem from="1665970996188" duration="15781000" />
+      <workItem from="1666061106778" duration="9580000" />
+      <workItem from="1666142185817" duration="21930000" />
+      <workItem from="1666229772872" duration="10371000" />
+      <workItem from="1666314252204" duration="12390000" />
+      <workItem from="1666403487186" duration="4912000" />
+      <workItem from="1666423720356" duration="1813000" />
+      <workItem from="1666440573019" duration="2453000" />
+      <workItem from="1666489026428" duration="5761000" />
+      <workItem from="1666574769733" duration="10802000" />
+      <workItem from="1666748848759" duration="2921000" />
+      <workItem from="1666753010413" duration="5543000" />
+      <workItem from="1666768908148" duration="38000" />
+      <workItem from="1666768985409" duration="601000" />
+      <workItem from="1666833974205" duration="11253000" />
+      <workItem from="1666920418328" duration="7128000" />
+      <workItem from="1666944821282" duration="19000" />
+      <workItem from="1667006940166" duration="4122000" />
+      <workItem from="1667096281511" duration="350000" />
+      <workItem from="1667178317698" duration="7942000" />
+      <workItem from="1667270460874" duration="7900000" />
+      <workItem from="1667308607034" duration="87000" />
+      <workItem from="1667351804959" duration="4817000" />
+      <workItem from="1667366607774" duration="1264000" />
+      <workItem from="1667440255581" duration="8583000" />
+      <workItem from="1667526333203" duration="5502000" />
+      <workItem from="1667787347387" duration="5900000" />
+      <workItem from="1667797143300" duration="227000" />
+      <workItem from="1667797395949" duration="1569000" />
+      <workItem from="1667869210504" duration="1655000" />
+      <workItem from="1667889609894" duration="84000" />
+      <workItem from="1667889708734" duration="91000" />
+      <workItem from="1667889821611" duration="4277000" />
+      <workItem from="1667954069464" duration="3904000" />
+      <workItem from="1668040832094" duration="595000" />
+      <workItem from="1668128091750" duration="6378000" />
+      <workItem from="1668235860178" duration="6393000" />
+      <workItem from="1668300904774" duration="7939000" />
+      <workItem from="1668391589415" duration="3152000" />
+      <workItem from="1668402504172" duration="3921000" />
+      <workItem from="1668475144058" duration="16040000" />
+      <workItem from="1668562339104" duration="7591000" />
+      <workItem from="1668647323331" duration="9598000" />
+      <workItem from="1668737299357" duration="8164000" />
+      <workItem from="1668994061189" duration="10461000" />
+      <workItem from="1669080849998" duration="7958000" />
+      <workItem from="1669170447493" duration="19299000" />
+      <workItem from="1669341495687" duration="5056000" />
+      <workItem from="1669426665102" duration="2553000" />
+      <workItem from="1669516012399" duration="7538000" />
+      <workItem from="1669596667816" duration="1186000" />
+      <workItem from="1669598426277" duration="6815000" />
+      <workItem from="1669682989888" duration="6017000" />
+      <workItem from="1669769796569" duration="5342000" />
+      <workItem from="1669856071759" duration="690000" />
+      <workItem from="1669944190990" duration="8094000" />
+      <workItem from="1670031161288" duration="6071000" />
+      <workItem from="1670202972041" duration="8439000" />
+      <workItem from="1670293909402" duration="3610000" />
+      <workItem from="1670376432901" duration="3343000" />
+      <workItem from="1670464219790" duration="6693000" />
+      <workItem from="1670549034960" duration="7185000" />
+      <workItem from="1670639215228" duration="2812000" />
+      <workItem from="1670723846559" duration="4925000" />
+      <workItem from="1670808406871" duration="7854000" />
+      <workItem from="1670895921821" duration="9448000" />
+      <workItem from="1670981364174" duration="6021000" />
+      <workItem from="1670994541429" duration="78000" />
+      <workItem from="1671067710510" duration="5858000" />
+      <workItem from="1671077714286" duration="1423000" />
+      <workItem from="1671153676114" duration="2526000" />
+      <workItem from="1671326551255" duration="935000" />
+      <workItem from="1671328705855" duration="7236000" />
+      <workItem from="1671414596628" duration="3038000" />
+      <workItem from="1671878948742" duration="4000" />
+      <workItem from="1672459680659" duration="3391000" />
+      <workItem from="1672541657155" duration="605000" />
+      <workItem from="1672974423595" duration="868000" />
+      <workItem from="1677632434337" duration="5543000" />
+      <workItem from="1677656838785" duration="7950000" />
+      <workItem from="1677719138229" duration="4837000" />
+      <workItem from="1677805407130" duration="7150000" />
+      <workItem from="1677890838469" duration="7536000" />
+      <workItem from="1677976829366" duration="9253000" />
+      <workItem from="1678063336739" duration="8084000" />
+      <workItem from="1678151165541" duration="8266000" />
+      <workItem from="1678238340091" duration="5906000" />
+      <workItem from="1678324220900" duration="10071000" />
+      <workItem from="1678409787166" duration="6351000" />
+      <workItem from="1678496228820" duration="9870000" />
+      <workItem from="1678584222404" duration="8633000" />
+      <workItem from="1678599548438" duration="2632000" />
+      <workItem from="1678608297588" duration="654000" />
+      <workItem from="1678669328526" duration="1845000" />
+      <workItem from="1678756005322" duration="7223000" />
+      <workItem from="1678845242790" duration="5052000" />
+      <workItem from="1678927870404" duration="6120000" />
+      <workItem from="1679018905756" duration="7604000" />
+      <workItem from="1679034186890" duration="34000" />
+      <workItem from="1679101150640" duration="4494000" />
+      <workItem from="1679188478409" duration="3931000" />
+      <workItem from="1679275386068" duration="5838000" />
+      <workItem from="1679290768652" duration="1151000" />
+      <workItem from="1679362216673" duration="13047000" />
+      <workItem from="1679446144286" duration="8952000" />
+      <workItem from="1679619794349" duration="7672000" />
+      <workItem from="1679796222174" duration="1792000" />
+      <workItem from="1679878688978" duration="8917000" />
+      <workItem from="1679967312487" duration="4110000" />
+      <workItem from="1680005509947" duration="15000" />
+      <workItem from="1680138201740" duration="5235000" />
+      <workItem from="1680174031684" duration="5612000" />
+      <workItem from="1680224496924" duration="1204000" />
+      <workItem from="1680312381704" duration="423000" />
+      <workItem from="1680353648546" duration="597000" />
+      <workItem from="1680487248229" duration="474000" />
+      <workItem from="1680487805102" duration="5195000" />
+      <workItem from="1680506562566" duration="5419000" />
+      <workItem from="1680572869580" duration="5572000" />
+      <workItem from="1680586830128" duration="594000" />
+      <workItem from="1680610111266" duration="316000" />
+      <workItem from="1680656684270" duration="5395000" />
+      <workItem from="1680744569169" duration="2821000" />
+      <workItem from="1681092211747" duration="5156000" />
+      <workItem from="1681175852193" duration="3486000" />
+      <workItem from="1681263865762" duration="9596000" />
+      <workItem from="1681294648780" duration="612000" />
+      <workItem from="1681348874628" duration="7315000" />
+      <workItem from="1681435312007" duration="4754000" />
+      <workItem from="1681520871111" duration="724000" />
+      <workItem from="1681521621633" duration="5879000" />
+      <workItem from="1681608606534" duration="5127000" />
+      <workItem from="1681694122289" duration="6731000" />
+      <workItem from="1681780899009" duration="4009000" />
+      <workItem from="1681868812516" duration="650000" />
+      <workItem from="1683681793801" duration="7757000" />
+      <workItem from="1683767693875" duration="9134000" />
+      <workItem from="1683855172376" duration="6217000" />
+      <workItem from="1683939797706" duration="2660000" />
+      <workItem from="1684114975039" duration="4626000" />
+      <workItem from="1684200225099" duration="6465000" />
+      <workItem from="1684287510328" duration="4677000" />
+      <workItem from="1684373672594" duration="3482000" />
+      <workItem from="1684459027539" duration="6896000" />
+      <workItem from="1684633063096" duration="6646000" />
+      <workItem from="1684717951235" duration="7589000" />
+      <workItem from="1684806012953" duration="3944000" />
+      <workItem from="1684890251482" duration="7494000" />
+      <workItem from="1685003875762" duration="319000" />
+      <workItem from="1686057399593" duration="4604000" />
+      <workItem from="1686107485219" duration="5817000" />
+      <workItem from="1686620141895" duration="3832000" />
+      <workItem from="1686704614322" duration="1169000" />
+      <workItem from="1686746811057" duration="1451000" />
+      <workItem from="1686792463013" duration="4595000" />
+      <workItem from="1720495387708" duration="219000" />
+      <workItem from="1720495637119" duration="622000" />
+      <workItem from="1720572659871" duration="6000" />
+      <workItem from="1720598622660" duration="797000" />
+      <workItem from="1720658487032" duration="1032000" />
+      <workItem from="1720745338107" duration="132000" />
+      <workItem from="1721725098693" duration="7170000" />
+      <workItem from="1724663306258" duration="254000" />
+      <workItem from="1724663589156" duration="7812000" />
+      <workItem from="1724743537923" duration="73000" />
+      <workItem from="1724743619621" duration="10916000" />
+      <workItem from="1725525435397" duration="2404000" />
+      <workItem from="1725584421207" duration="7151000" />
+      <workItem from="1725957274846" duration="3383000" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
     </task>
     <task id="LOCAL-00001" summary="2024-8-29">
       <created>1724977265215</created>
@@ -202,7 +527,39 @@
       <option name="project" value="LOCAL" />
       <updated>1724977265216</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="2" />
+=======
+    <task id="LOCAL-00008" summary="2022-12-18">
+      <created>1679797655228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679797655228</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2024-7-24">
+      <created>1721784029658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721784029658</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2024-8-27">
+      <created>1724742748365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724742748366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2024-9-6">
+      <created>1725590241146</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725590241146</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,8 +592,22 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+<<<<<<< HEAD
     <MESSAGE value="2024-8-29" />
     <option name="LAST_COMMIT_MESSAGE" value="2024-8-29" />
+=======
+    <MESSAGE value="滑动窗口" />
+    <MESSAGE value="2022-12-6" />
+    <MESSAGE value="2022-12-7" />
+    <MESSAGE value="2022-12-10" />
+    <MESSAGE value="2022-12-12" />
+    <MESSAGE value="2022-12-14" />
+    <MESSAGE value="2022-12-18" />
+    <MESSAGE value="2024-7-24" />
+    <MESSAGE value="2024-8-27" />
+    <MESSAGE value="2024-9-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-9-6" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,7 +620,177 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_26.java</url>
           <line>24</line>
+<<<<<<< HEAD
           <option name="timeStamp" value="10" />
+=======
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeArray/LeetCode_844.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_687.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_113.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeString/LeetCode_Sw_05.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_21.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeHash/LeetCode_15_.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_108.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_22.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_90.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeArray/leetCodeArray_2/LeetCode_977.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/LeetCode_912.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StackAndQueue/LeetCode_347.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_102_2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_105.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tree/LeetCode_236_2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_216_2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_39_2.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_39_2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_131_2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_131_2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_491_2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeLink/LeetCode_2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode_12.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Swing_13.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeString/LeetCode_14.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetCodeString/LeetCode_14.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode_134.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_2_367.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_2_367.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_27.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_46.java</url>
+          <line>31</line>
+          <properties class="leetCodeBack.LeetCode_46.Solution" method="backR">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetCodeBack/LeetCode_93.java</url>
+          <line>29</line>
+          <properties class="leetCodeBack.LeetCode_93.Solution" method="backRes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="55" />
+>>>>>>> 2a14402fcab353ce4176756daad3432e1d08a257
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
@@ -266,11 +807,11 @@
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$LeetCode_347.ic" NAME="LeetCode_347 Coverage Results" MODIFIED="1665207731872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>StackAndQueue.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/code$LeetCode_206.ic" NAME="LeetCode_206 Coverage Results" MODIFIED="1664168441488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetCodeLink.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/code$LeetCode_347.ic" NAME="LeetCode_347 Coverage Results" MODIFIED="1665207731872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StackAndQueue.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/code$LeetCode_46.ic" NAME="LeetCode_46 Coverage Results" MODIFIED="1669602895578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetCodeBack.*</FILTER>

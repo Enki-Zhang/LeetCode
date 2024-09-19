@@ -9,25 +9,37 @@ package algorithm;
  */
 public class LeetCode_27 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] ints = {0, 1, 2, 2, 3, 0, 4, 2};
-        int i = solution.removeElement(ints, 2);
-        System.out.println(i);
+        int[] nums = {3,2,2,3};
+        new Solution().removeElement(nums,2);
+
     }
 
+    /**
+     * 排序 冒泡
+     */
     static class Solution {
         public int removeElement(int[] nums, int val) {
-            int len = 0;
-
-//                题目不需要进行交换 只要在新数组中不保留目标值即可 用后面数字替换前面的目标值即可
-            for (int i = 0; i < nums.length; i++) {
+            int number = 0;
+//            将目标元素移动到数组末尾
+            for (int i = 0; i < nums.length-1; i++) {
                 if (nums[i] != val) {
-                    nums[len] = nums[i];
-                    len++;
+                    swapTar(i, nums.length - 1 - number, nums);
                 }
-
+                number++;
             }
-            return len;
+            return number;
+        }
+
+        /**
+         * 交换元素
+         *
+         * @param a
+         * @param b
+         */
+        public void swapTar(int a, int b, int[] nums) {
+            int temp = nums[a];
+            nums[a] = nums[b];
+            nums[b] = temp;
         }
 
     }
