@@ -5,34 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2de9d21b-2390-408d-81a6-478edb94892f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/857a52ef064d1aa5298bfc019f52a10e9de75c31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_904.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain/LeetCode142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain/LeetCode202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain/LeetCode242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain/LeetCode349.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chain/LeetCode_interView0207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/LeetCode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/LeetCode15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/LeetCode18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/LeetCode383.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/LeetCode454.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaeasy/GenericsDemo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaeasy/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string_1/LeetCode14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string_1/LeetCode151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string_1/LeetCode344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string_1/LeetCode541.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GitCommitMessageStorage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27c34244ad2e1de7fadc595a0b745479f1782cc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3656fad034aab89ffb94e74a46ff44f2b0cb7304" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c06c78b395dfe0baebd21a0111092e2d8eece74f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4f2783a0869765f1a8ed486c9938a1fa58d6472" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/LeetCode206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain/LeetCode206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chain/LeetCode24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chain/LeetCode24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,26 +92,13 @@
   <component name="ReaderModeSettings">
     <option name="showRenderedDocs" value="false" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode_5">
+  <component name="RunManager" selected="Application.LeetCode_3">
     <configuration name="LeetCode14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string_1.LeetCode14" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashmap.LeetCode15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_3" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.LeetCode_5" />
       <module name="LeetCode" />
@@ -179,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_3" />
         <item itemvalue="Application.LeetCode_5" />
         <item itemvalue="Application.LeetCode14" />
         <item itemvalue="Application.LeetCode541" />
         <item itemvalue="Application.LeetCode344" />
-        <item itemvalue="Application.LeetCode15" />
       </list>
     </recent_temporary>
   </component>
@@ -216,12 +197,24 @@
       <workItem from="1733533694298" duration="773000" />
       <workItem from="1736470978961" duration="5222000" />
       <workItem from="1736595044715" duration="682000" />
-      <workItem from="1736760003215" duration="2429000" />
+      <workItem from="1736760003215" duration="7083000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: &#10;&#10;2025-1-14">
+      <created>1736816527777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736816527777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: &#10;&#10;2025-1-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: &#10;&#10;2025-1-14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -250,6 +243,11 @@
           <url>file://$PROJECT_DIR$/src/hashmap/LeetCode454.java</url>
           <line>14</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode02/src/algorithm/LeetCode_3.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
